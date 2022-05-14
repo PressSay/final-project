@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <title>Web bán giầy</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/cart.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="Logo" width="32">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" action="search.html">
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                                name="word">
+                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                                kiếm</button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
+                    <a class="btn btn-outline-secondary mx-1" href="signup.html">Đăng Ký</a>
+                    <a aria-current="page" href="#">
+                        <i class="btn btn-outline-secondary active mx-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div class="container mt-5 p-3 rounded cart">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div id="cart" class="product-details mr-2">
+                        <a href="product.html" class="text-decoration-none d-flex flex-row align-items-center"><i
+                                class="fa fa-long-arrow-left"></i><span class="mx-3">Continue Shopping</span></a>
+                        <hr>
+                        <h6 class="mb-0">Shopping cart</h6>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="payment-info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Card details</span>
+                        </div>
+                        <span class="type d-block mt-3 mb-1">Card type</span>
+                        <label class="radio"> <input type="radio" name="card" value="payment" checked> <span>
+                                <img width="30" src="https://img.icons8.com/color/48/000000/mastercard.png" />
+                            </span>
+                        </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="https://img.icons8.com/officel/48/000000/visa.png" /></span> </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="https://img.icons8.com/ultraviolet/48/000000/amex.png" /></span> </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="https://img.icons8.com/officel/48/000000/paypal.png" /></span> </label>
+                        <div><label class="credit-card-label">Name on card</label><input type="text"
+                                class="form-control credit-inputs" placeholder="Name"></div>
+                        <div><label class="credit-card-label">Card number</label><input type="text"
+                                class="form-control credit-inputs" placeholder="0000 0000 0000 0000"></div>
+                        <div class="row">
+                            <div class="col-md-6"><label class="credit-card-label">Date</label><input type="text"
+                                    class="form-control credit-inputs" placeholder="12/24"></div>
+                            <div class="col-md-6"><label class="credit-card-label">CVV</label><input type="text"
+                                    class="form-control credit-inputs" placeholder="342"></div>
+                        </div>
+                        <hr class="line">
+                        <div class="d-flex justify-content-between information">
+                            <span>Thành tiền</span>
+                            <span id="total">0$</span>
+                        </div>
+                        <button class="btn btn-primary btn-block d-flex justify-content-between mt-3" type="button">
+                            <span>Thanh toán<i class="fa fa-long-arrow-right mx-2"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./assets/js/product.js"></script>
+    <script type="text/javascript">
+        let total = 0;
+        function createEntry(product, amount) {
+            let container = $(`<div id="${product.id}" class="d-flex justify-content-between align-items-center mt-3 p-2 items rounded"></div>`);
+            let infoContainer = $('<div class="d-flex flex-row"></div>');
+            infoContainer.append(`<img class="rounded" src="${product.imageUrl}" width="40">`);
+            infoContainer.append(`<span class="ml-2 font-weight-bold d-block text-capitalize">${product.name}</span>`);
+            container.append(infoContainer);
+            let priceContainer = $('<div class="d-flex flex-row align-items-center"></div>');
+            priceContainer.append(`<span class="mx-2 d-block">${amount}</span>`);
+            priceContainer.append('x');
+            priceContainer.append(`<span class="mx-2 d-block ml-5 font-weight-bold">${product.price}</span>`);
+            let trash = $('<i class="fa-solid fa-trash-can mx-2 ml-3 text-danger"></i>');
+            trash.click(() => {
+                window.localStorage.removeItem(product.id);
+                $(`#${product.id}`).remove();
+                total -= product.price * amount;
+                $("#total").text(total + "$");
+            });
+            priceContainer.append(trash);
+            container.append(priceContainer);
+            return container;
+        }
+
+        $(async () => {
+            let data = await getProductsData();
+            let products = getProducts(data);
+            let cart = $("#cart");
+            for (let i = 0; i < window.localStorage.length; i++) {
+                let product = products[window.localStorage.key(i)];
+                if (typeof product === "undefined")
+                    continue;
+
+                let amount = parseInt(window.localStorage.getItem(product.id) ?? "0");
+                let entry = createEntry(product, amount);
+                total += product.price * amount;
+                cart.append(entry);
+            }
+            $("#total").text(total + "$");
+        })
+    </script>
+</body>
+
+</html>

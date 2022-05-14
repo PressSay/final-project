@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <title>Web bán giầy</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="Logo" width="32">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" action="search.html">
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                                name="word">
+                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                                kiếm</button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
+                    <a class="btn btn-outline-secondary mx-1" href="signup.html">Đăng Ký</a>
+                    <a aria-current="page" href="cart.html">
+                        <i class="btn btn-outline-secondary mx-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <section id="gallery">
+            <div id="gallery-indicator" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#gallery-indicator" data-bs-slide-to="0" aria-label="0"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#gallery-indicator" data-bs-slide-to="1"
+                        aria-label="1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/myles-omeally-next-gen-sneakers-02.webp" class="d-block img-fluid"
+                            alt="Alba Aragon Koi Albaaragon">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/myles-omeally-next-gen-sneakers-05.webp" class="d-block img-fluid"
+                            alt="False Percula Clownfish">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#gallery-indicator"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#gallery-indicator"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="top-sale" class="mt-4">
+            <h4 class="font-rubik font-size-20 d-flex justify-content-center mt-5">Bán chạy</h4>
+            <hr>
+
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="./assets/images/products/casual/abros_olive_punto_o_lace_up_casual_shoes.png"
+                            alt="abros olive punto o lace up casual shoes" id="long_tentacle_anemone">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">abros olive punto o lace up casual shoes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="./assets/images/products/casual/campus_black_explore_mid_top_lace_up_casual_shoes.png"
+                            alt="campus black explore mid top lace up casual shoes" id="male_rose_petal_betta">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">campus black explore mid top lace up casual shoes
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="./assets/images/products/flip_flop_slippers/campus_black_round_toe_thong_style_flip_flops_.png"
+                            alt="tiger pistol shrimp" id="tiger_pistol_shrimp">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">campus black round toe thong style flip flops</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Shop Giầy</h4>
+                    <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Repellendus, deserunt.</p>
+                </div>
+                <div class="col-lg-4 col-12 mb-4">
+                    <h4 class="font-rubik font-size-20">Bản tin</h4>
+                    <form>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <label for="email" class="input-group-text" id="subscribe-desc">@</label>
+                            </div>
+                            <input id="email" type="email" class="form-control" placeholder="Email"
+                                aria-describedby="subscribe-desc">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Đặt mua</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Thông tin</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Chính sách bảo mật</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Điều khoản và điều kiện</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+        <p class="font-rale font-size-14">&copy; Copyrights 2022. Desing By <a href="#" class="color-second">Quí</a></p>
+    </div>
+</body>
+
+</html>

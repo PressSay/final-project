@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <title>Web bán giầy</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="Logo" width="32">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" action="search.html">
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                                name="word">
+                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                                kiếm</button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
+                    <a class="btn btn-outline-secondary mx-1 active" aria-current="page" href="#">Đăng Ký</a>
+                    <a aria-current="page" href="cart.html">
+                        <i class="btn btn-outline-secondary mx-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="mt-5 container">
+            <form>
+                <div class="row">
+                    <h4>Tài khoản</h4>
+                    <div class="input-group input-group-icon">
+                        <input type="text" placeholder="Full Name" />
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="email" placeholder="Email Adress" />
+                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="password" placeholder="Password" />
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-half">
+                        <h4>Ngày sinh</h4>
+                        <div class="input-group">
+                            <div class="col-third">
+                                <input type="text" placeholder="DD" />
+                            </div>
+                            <div class="col-third">
+                                <input type="text" placeholder="MM" />
+                            </div>
+                            <div class="col-third">
+                                <input type="text" placeholder="YYYY" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-half">
+                        <h4>Giới tính</h4>
+                        <div class="input-group">
+                            <input id="gender-male" type="radio" name="gender" value="male" />
+                            <label for="gender-male">Nam</label>
+                            <input id="gender-female" type="radio" name="gender" value="female" />
+                            <label for="gender-female">Nữ</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4 class="mt-2">Các điều khoản và điều kiện</h4>
+                    <div class="input-group">
+                        <input id="terms" type="checkbox" />
+                        <label class="mt-2 mb-3" for="terms">Tôi chấp nhận các điều khoản và điều kiện để đăng ký dịch
+                            vụ này và qua đây xác nhận rằng tôi đã đọc chính sách bảo mật.</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" name="submit" value="Đăng ký">
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

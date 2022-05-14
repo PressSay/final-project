@@ -1,0 +1,42 @@
+{
+    "casual": {
+        "abros_olive_punto_o_lace_up_casual_shoes": "100",
+        "campus_black_explore_mid_top_lace_up_casual_shoes": "100",
+        "skechers_navy_ultra_flex_2_0_casual_shoes": "100",
+        "the_indian_garage_co_brown_lace_up_boat_shoes_with_moc_stitch_upper": "100",
+        "u_s__polo_assn__black_textured_slip_on_casual_shoes": "100",
+        "u_s__polo_assn__grey_aaron_2_0_slip_on_shoes": "100"
+    },
+    "flip_flop_slippers": {
+        "campus_black_round_toe_thong_style_flip_flops_": "100",
+        "nike_navy_blue_brand_print_slides": "100",
+        "superdry_blue_printed_beach_slides": "100",
+        "u_s__polo_assn__black_brand_print_thong_strap_flip_flops": "100",
+        "u_s__polo_assn__black_zane_2_0_logo_print_slides": "100",
+        "u_s__polo_assn__navy_blue_specter_3_0_logo_embossed_slides": "100"
+    },
+    "formal": {
+        "carlton_london_black_lace_up_formal_derby_shoes": "100",
+        "carlton_london_brown_lace_up_formal_oxford_shoes": "100",
+        "leatherkraft_brown_panelled_lace_up_derby_shoes": "100",
+        "stelvio_black_panelled_glossy_oxfords_with_broguing": "100",
+        "stelvio_brown_monk_style_formal_shoes_with_broguing": "100",
+        "stelvio_dark_brown_low_top_moccasins_with_stacked_heels": "100"
+    },
+    "sandals": {
+        "carlton_london_black_dual_strap_slip_on_sandals": "100",
+        "carlton_london_olive_green_dual_strap_slip_on_sandals": "100",
+        "crocs_black_bayaband_slingback_clogs": "100",
+        "crocs_grey_bayaband_slip_on_clogs": "100",
+        "crocs_navy_bayaband_slingback_clogs": "100",
+        "crocs_white_bayaband_clogs_with_slingback": "100"
+    },
+    "sneaker": {
+        "adidas_black_round_toe_lace_up_sports_shoes": "100",
+        "campus_blue_milan_textured_low_top_sports_shoes": "100",
+        "campus_blue_rockee_panelled_slip_on_running_shoes": "100",
+        "levis_white_textured_lace_up_sneakers": "100",
+        "nike_black_airmax_impact_3_logo_print_lace_up_basketball_shoes": "100",
+        "nike_blue_downshifter_11_textured_lace_up_running_shoes": "100"
+    }
+}
