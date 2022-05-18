@@ -1,0 +1,32 @@
+.container
+{
+    margin-top:5px;
+    background-color: #faf4e9;
+}
+.newarrival
+{
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.col-md-7
+{
+    color: black;
+}
+input
+{
+    border: 1px seagreen;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+.cart
+{
+    background: #FE980F;
+    color: #faf4e9;
+    font-size: 15px;
+    margin-left: 20px;
+}
