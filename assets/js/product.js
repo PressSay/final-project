@@ -12,6 +12,11 @@ function getProductsData() {
 function createCard(product) {
 	let card = $("<div class='card'></div>");
 
+	card.click(() => {
+		window.location.href = "./sub_product.html";
+		window.localStorage.setItem(product.name, product.imageUrl);
+	})
+
 	let img = $("<img class='card-img-top'></img>");
 	img.attr({
 		src: product.imageUrl,
@@ -27,6 +32,7 @@ function createCard(product) {
 
 	let input = $("<input type='number' min='0' max='100' size='3' value='0'>");
 	cardBody.append(input);
+
 
 	let button = $("<button class='btn btn-primary'>Order</button>");
 	button.click(() => {
