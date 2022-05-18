@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <title>Web</title>
+    <link rel="stylesheet" href="detailprodust.css">
     <link rel="stylesheet" href="./assets/css/product.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
@@ -16,9 +18,46 @@
     <main>
         <!-- Phan details product -->
         <section>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/images/products/sneaker/adidas_black_round_toe_lace_up_sports_shoes.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/products/flip_flop_slippers/superdry_blue_printed_beach_slides.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/products/sandals/crocs_navy_bayaband_slingback_clogs.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="newarrival text-center">NEW</p>
+                        <h1>Sneaker___Flipflop___Sandals</h1>
+                        <p>Sneaker : Adidas Black Round Toe Lace Up Sports Shoes.</p>
+                        <p>Flipflop : Superdry Blue Printed Beach Slides.</p>
+                        <p>Sandals : Crocs Navy Bayaband Slingback Clogs.</p>
+                        <p class="price">USD : 100$</p>
+                        <label>Quantily :</label>
+                        <input type="text" value="1">
+                        <button type="button" class="btn btn-default cart">
+                        Add to cart</button>
+                    </div>
+                </div>
+            </div>
         </section>
-
         <!-- product lien quan -->
         <section>
             <div class="d-flex justify-content-center align-content-center bd-highlight flex-column " style="background-color:#faf4e9;;">
