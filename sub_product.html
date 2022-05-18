@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <title>Web</title>
-    <link rel="stylesheet" href="detailprodust.css">
-    <link rel="stylesheet" href="./assets/css/product.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
 </head>
-<body>
+<body style="background-color: #FAF4E9;">
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -59,14 +57,13 @@
         </div>
     </nav>
 
-    <main>
+    <main class="mt-5" style="background-color: #E3F2FD;">
         <!-- Phan details product -->
         <section>
             <div class="container">
-                <div class="row">
+                <div class="row pt-4 pb-4">
                     <div class="col-md-5">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <!-- <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <img src="./assets/images/products/sneaker/adidas_black_round_toe_lace_up_sports_shoes.png" class="d-block w-100" alt="...">
                               </div>
@@ -85,56 +82,60 @@
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="visually-hidden">Next</span>
                             </button>
-                          </div>
+                          </div> -->
+
+                    <img class="card-img-top" id="img-card" src="./assets/images/products/flip_flop_slippers/campus_black_round_toe_thong_style_flip_flops_.png">
                     </div>
+
                     <div class="col-md-7">
-                        <p class="newarrival text-center">NEW</p>
-                        <h1>Sneaker___Flipflop___Sandals</h1>
-                        <p>Sneaker : Adidas Black Round Toe Lace Up Sports Shoes.</p>
-                        <p>Flipflop : Superdry Blue Printed Beach Slides.</p>
-                        <p>Sandals : Crocs Navy Bayaband Slingback Clogs.</p>
-                        <p class="price">USD : 100$</p>
+                        <p class="text-left mt-3" style="color: green; font-weight: bold;">NEW</p>
+                        <h1 class="mt-2 mb-2">Sneaker___Flipflop___Sandals</h1>
+                        <p class="mt-5" style="font-weight: lighter; font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur corrupti, nulla cupiditate, molestiae, hic distinctio minus laborum atque aliquid ullam. Sapiente accusantium saepe quisquam dolore neque iure velit consectetur?</p>
+                        <p class="price"><span style="font-weight:inherit">USD : 100$</span></p>
                         <label>Quantily :</label>
-                        <input type="text" value="1">
-                        <button type="button" class="btn btn-default cart">
+                        <input type="number" value="1" style="height: 25px; width: 50px">
+                        <button type="button" class="btn btn-default" style="background: #FE980F;
+                        color: #faf4e9;
+                        font-size: 15px;
+                        margin-left: 20px">
                         Add to cart</button>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- product lien quan -->
+        <!-- product lien quan justify-content-center align-content-center-->
         <section>
-            <div class="d-flex justify-content-center align-content-center bd-highlight flex-column " style="background-color:#faf4e9;;">
-                <div class="p-2 bd-highlight align-self-center m-auto pt-4 mb-4">
-                    <h2 class="m-auto color: $light">products</h2>
+            <div class="d-flex  bd-highlight flex-column" style="background-color:#faf4e9;;">
+                <div class="p-2 bd-highlight pt4 d-flex flex-row justify-content-center">
+                    <h2 class="p-2 m-auto color: $light">Products</h2>
                 </div>
-                <div class="p-auto bd-highlight pb-4">
-                    <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
-                        <div class="p-2 bd-highlight">
+                <div class="p-auto bd-highlight">
+                    <div class="d-md-flex bd-highlight mb-3 justify-content-center ">
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
                             <div class="card" style="width: 16rem;">
                                 <img src="./assets/images/products/sneaker/adidas_black_round_toe_lace_up_sports_shoes.png" class="card-img-top " alt="...">
-                                <div class="card-body" style="background-color:#5e9bc7;">
-                                    <h5 class="card-title" style="color: #F8F8FF;">Adidas Black Round Toe Lace Up Sports Shoes</h5>
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Adidas Black Round Toe Lace Up Sports Shoes</h5>
                                     <p class="card-text"></p>
                                     <span style="border-top: 1px solid #FFD700; color: #FFD700;">100$</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
                             <div class="card" style="width: 16rem;">
                                 <img src="./assets/images/products/flip_flop_slippers/superdry_blue_printed_beach_slides.png" class="card-img-top" alt="...">
-                                <div class="card-body" style="background-color:#ec8bba;">
-                                    <h5 class="card-title" style="color: #F8F8FF;">Superdry Blue Printed Beach Slides</h5>
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Superdry Blue Printed Beach Slides</h5>
                                     <p class="card-text"></p>
                                     <span style="border-top: 1px solid #FFD700; color: #FFD700;">100$</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 bd-highlight">
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
                             <div class="card" style="width: 16rem;">
                                 <img src="./assets/images/products/sandals/crocs_navy_bayaband_slingback_clogs.png" class="card-img-top" alt="...">
-                                <div class="card-body" style="background-color:#a7a9ac;">
-                                    <h5 class="card-title" style="color: #F8F8FF;">Crocs Navy Bayaband Slingback Clogs</h5>
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Crocs Navy Bayaband Slingback Clogs</h5>
                                     <p class="card-text"></p>
                                     <span style="border-top: 1px solid #FFD700; color: #FFD700;">100$</span>
                                 </div>
@@ -145,5 +146,11 @@
             </div>
         </section>
     </main>
+
+    <script type="text/javascript" src="./assets/js/product.js"></script>
+    <Script>
+        
+    </Script>
+
 </body>
 </html>
