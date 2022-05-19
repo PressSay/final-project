@@ -25,7 +25,6 @@ function createCard(product) {
 	img.attr({
 		src: product.imageUrl,
 		alt: product.name,
-		id: product.id
 	});
 	card.append(img);
 

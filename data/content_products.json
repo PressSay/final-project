@@ -1,12 +1,12 @@
 {
     "abros_olive_punto_o_lace_up_casual_shoes": {
-        "en": {
+        "vi": {
             "header": "Abros Olive Punto O Lace Up Casual Shoes",
             "detail": "Giày sandal dây bệt gắn khoá hoa trang trí đẹp mắt Mũi tròn kèm quai bản quai mới lạ mang lại nét cá tính Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi làm, dạo phố"
         },
-        "vi": {
+        "en": {
             "header": "Abros Olive Punto O Ren Up Giày thường",
-            "detai": "Flat lace-up sandals with beautiful decorative flower buckles Round nose with new straps brings personality High quality synthetic leather material, suitable for many occasions: going to work, walking around"
+            "detail": "Flat lace-up sandals with beautiful decorative flower buckles Round nose with new straps brings personality High quality synthetic leather material, suitable for many occasions: going to work, walking around"
         }
     },
     "campus_black_explore_mid_top_lace_up_casual_shoes": {
@@ -16,7 +16,7 @@
         },
         "vi":{
             "header":"Campus Black Explore Mid Top Lace Up Casual Shoes",
-            "detai":"Giày sandal gót trong chuyển màu tinh tế, sang trọng và ấn tượng Phần quai ngang mảnh, phối họa tiết chữ tạo điểm nhấn nổi bật Chất liệu da tổng hợp cao cấp, bền đẹp, dễ vệ sinh"
+            "detail":"Giày sandal gót trong chuyển màu tinh tế, sang trọng và ấn tượng Phần quai ngang mảnh, phối họa tiết chữ tạo điểm nhấn nổi bật Chất liệu da tổng hợp cao cấp, bền đẹp, dễ vệ sinh"
         }
     },
     "skechers_navy_ultra_flex_2_0_casual_shoes" : {
@@ -26,7 +26,7 @@
         },
         "vi":{
             "header":"Giày thường Skechers Navy Ultra Flex 2 0",
-            "detai":"Giày sandal gót nhọn quai hậu nhún mới lạ Thiết kế mũi vuông hở mũi cùng quai mảnh nhún mang lại nét thời trang, sành điệu Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
+            "detail":"Giày sandal gót nhọn quai hậu nhún mới lạ Thiết kế mũi vuông hở mũi cùng quai mảnh nhún mang lại nét thời trang, sành điệu Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
         }
     },
     "the_indian_garage_co_brown_lace_up_boat_shoes_with_moc_stitch_upper" : {
@@ -36,7 +36,7 @@
         },
         "vi":{
             "header":"Giày thường Skechers Navy Ultra Flex 2 0",
-            "detai":"Giày sandal 3 dây quai nhún nổi bật Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi làm, dạo phố"
+            "detail":"Giày sandal 3 dây quai nhún nổi bật Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi làm, dạo phố"
         }
     },
     "u_s__polo_assn__black_textured_slip_on_casual_shoes" : {
@@ -46,7 +46,7 @@
         },
         "vi":{
             "header":"U S Polo Assn Đen có họa tiết trên giày thường",
-            "detai":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp"
+            "detail":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp"
         }
     },
     "u_s__polo_assn__grey_aaron_2_0_slip_on_shoes" : {
@@ -56,7 +56,7 @@
         },
         "vi":{
             "header":"U S Polo Assn Grey Aaron 2 0 Giày trượt trên",
-            "detai":"Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính"
+            "detail":"Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính"
         }
     },
     "campus_black_round_toe_thong_style_flip_flops_" : {
@@ -66,7 +66,7 @@
         },
         "vi":{
             "header":"Dép xỏ ngón phong cách Campus Black Round Toe Thong",
-            "detai":"Giày sandal quai ngang cut out mới lạ, nổi bật"
+            "detail":"Giày sandal quai ngang cut out mới lạ, nổi bật"
         }
     },
     "nike_navy_blue_brand_print_slides" : {
@@ -76,7 +76,7 @@
         },
         "vi":{
             "header":"Trang trình bày in nhãn hiệu màu xanh hải quân của Nike",
-            "detai":"Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
+            "detail":"Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
         }
     },
     "superdry_blue_printed_beach_slides" : {
@@ -86,7 +86,7 @@
         },
         "vi":{
             "header":"Trượt bãi biển in màu xanh Superdry",
-            "detai":"Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
+            "detail":"Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
         }
     },
     "u_s__polo_assn__black_brand_print_thong_strap_flip_flops" : {
@@ -96,7 +96,7 @@
         },
         "vi":{
             "header":"U S Polo Assn Black Brand Print Thong Strap Dép xỏ ngón",
-            "detai":"Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
+            "detail":"Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
         }
     },
     "u_s__polo_assn__black_zane_2_0_logo_print_slides" : {
@@ -106,7 +106,7 @@
         },
         "vi":{
             "header":"U S Polo Assn Black Zane 2 0 Logo in Trang trình bày",
-            "detai":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
+            "detail":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
         }
     },
     "u_s__polo_assn__navy_blue_specter_3_0_logo_embossed_slides" : {
@@ -116,7 +116,7 @@
         },
         "vi":{
             "header":"U S Polo Assn Navy Blue Spectre 3 0 Logo Trang trình bày nổi",
-            "detai":"Giày sandal phối quai chéo mới lạ, hiện đại"
+            "detail":"Giày sandal phối quai chéo mới lạ, hiện đại"
         }
     },
     "carlton_london_black_lace_up_formal_derby_shoes" : {
@@ -126,7 +126,7 @@
         },
         "vi":{
             "header":"Carlton London Black Lace Up Formal Derby Shoes",
-            "detai":"Mũi vuông kèm quai bản to mang lại nét cá tính"
+            "detail":"Mũi vuông kèm quai bản to mang lại nét cá tính"
         }
     },
     "carlton_london_brown_lace_up_formal_oxford_shoes" : {
@@ -136,7 +136,7 @@
         },
         "vi":{
             "header":"Carlton London Brown Ren Up Formal Shoes Oxford",
-            "detai":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
+            "detail":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
         }
     },
     "leatherkraft_brown_panelled_lace_up_derby_shoes" : {
@@ -146,7 +146,7 @@
         },
         "vi":{
             "header":"Giày Derby Leatherkraft Nâu Paneled Ren Up",
-            "detai":"Giày sandal bệt mũi vuông quai ngang trẻ trung, năng động"
+            "detail":"Giày sandal bệt mũi vuông quai ngang trẻ trung, năng động"
         }
     },
     "stelvio_black_panelled_glossy_oxfords_with_broguing" : {
@@ -156,7 +156,7 @@
         },
         "vi":{
             "header":"Stelvio Black Paneled Oxfords Glossy with Broguing",
-            "detai":"Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
+            "detail":"Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
         }
     },
     "stelvio_brown_monk_style_formal_shoes_with_broguing" : {
@@ -166,7 +166,7 @@
         },
         "vi":{
             "header":"Giày Stelvio Brown Phong cách Tu sĩ trang trọng với Broguing",
-            "detai":"Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
+            "detail":"Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
         }
     },
     "stelvio_dark_brown_low_top_moccasins_with_stacked_heels" : {
@@ -176,7 +176,7 @@
         },
         "vi":{
             "header":"Stelvio Nâu đậm, Moccasins hàng đầu thấp với gót xếp chồng lên nhau",
-            "detai":"Đế giày êm nhẹ, có rãnh chống trượt bên dưới giúp việc di"
+            "detail":"Đế giày êm nhẹ, có rãnh chống trượt bên dưới giúp việc di"
         }
     },
     "carlton_london_black_dual_strap_slip_on_sandals" : {
@@ -186,7 +186,7 @@
         },
         "vi":{
             "header":"Carlton London Black Dual Strap Slip On Sandals",
-            "detai":"Giày sandal cắt lazer charm trái cây mạng lại nét trẻ trung,"
+            "detail":"Giày sandal cắt lazer charm trái cây mạng lại nét trẻ trung,"
         }
     },
     "carlton_london_olive_green_dual_strap_slip_on_sandals" : {
@@ -196,7 +196,7 @@
         },
         "vi":{
             "header":"Carlton London Olive Green Dual Strap Slip On Sandals",
-            "detai":"Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
+            "detail":"Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
         }
     },
     "crocs_black_bayaband_slingback_clogs" : {
@@ -206,7 +206,7 @@
         },
         "vi":{
             "header":"Sabots Crocs Bayaband Slingback noirs",
-            "detai":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
+            "detail":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
         }
     },
     "crocs_grey_bayaband_slip_on_clogs" : {
@@ -216,7 +216,7 @@
         },
         "vi":{
             "header":"Crocs Grey Bayaband trượt trên guốc",
-            "detai":"Giày sandal mũi vuông đính dây xích trang trí nổi bật, tạo"
+            "detail":"Giày sandal mũi vuông đính dây xích trang trí nổi bật, tạo"
         }
     },
     "crocs_navy_bayaband_slingback_clogs" : {
@@ -226,7 +226,7 @@
         },
         "vi":{
             "header":"Crocs Navy Bayaband Slingback Guốc",
-            "detai":"Phần quai cài tiện dùng, kết hợp với đế bệt giúp nàng thoải"
+            "detail":"Phần quai cài tiện dùng, kết hợp với đế bệt giúp nàng thoải"
         }
     },
     "crocs_white_bayaband_clogs_with_slingback" : {
@@ -236,7 +236,7 @@
         },
         "vi":{
             "header":"Giày Crocs White Bayaband có quai hậu",
-            "detai":"Chất liệu da tổng hợp cao cấp, phù hợp mang dạo phố, đi"
+            "detail":"Chất liệu da tổng hợp cao cấp, phù hợp mang dạo phố, đi"
         }
     },
     "adidas_black_round_toe_lace_up_sports_shoes" : {
@@ -246,7 +246,7 @@
         },
         "vi":{
             "header":"Giày thể thao Adidas Black Round Toe Lace Up",
-            "detai":"Giày sandal bệt dây mảnh xỏ ngón trẻ trung, hiện đại"
+            "detail":"Giày sandal bệt dây mảnh xỏ ngón trẻ trung, hiện đại"
         }
     },
     "campus_blue_milan_textured_low_top_sports_shoes" : {
@@ -256,7 +256,7 @@
         },
         "vi":{
             "header":"Campus Blue Milan Giày thể thao hàng đầu thấp có kết cấu",
-            "detai":"Mũi tròn kèm quai xỏ nhón giúp bàn chân thon nhỏ hơn"
+            "detail":"Mũi tròn kèm quai xỏ nhón giúp bàn chân thon nhỏ hơn"
         }
     },
     "campus_blue_rockee_panelled_slip_on_running_shoes" : {
@@ -266,7 +266,7 @@
         },
         "vi":{
             "header":"Campus Blue Rockee Paneled Slip on Running Shoes",
-            "detai":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
+            "detail":"Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
         }
     },
     "levis_white_textured_lace_up_sneakers" : {
@@ -276,7 +276,7 @@
         },
         "vi":{
             "header":"Levis White Textured Sneakers",
-            "detai":" Giày mules mũi vuông quai mảnh tạo cảm giác nhẹ nhàng, nữ tính"
+            "detail":" Giày mules mũi vuông quai mảnh tạo cảm giác nhẹ nhàng, nữ tính"
         }
     },
     "nike_black_airmax_impact_3_logo_print_lace_up_basketball_shoes" : {
@@ -286,7 +286,7 @@
         },
         "vi":{
             "header":"Giày bóng rổ Nike Black Air Max Impact 3 in logo",
-            "detai":"Quai giày mảnh đan chéo là điểm nhấn, giúp chân thon gọn hơn."
+            "detail":"Quai giày mảnh đan chéo là điểm nhấn, giúp chân thon gọn hơn."
         }
     },
     "nike_blue_downshifter_11_textured_lace_up_running_shoes" : {
@@ -296,7 +296,7 @@
         },
         "vi":{
             "header":"Giày chạy bộ Nike Blue Downshifter 11 Texture Ren Up",
-            "detai":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
+            "detail":"Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
         }
     }
 }
