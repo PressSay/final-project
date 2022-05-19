@@ -1,42 +1,42 @@
 {
     "nav": {
         "en": {
-            "index": "",
-            "product":"",
-            "search-value": "",
-            "search-button": "",
-            "signin": "",
-            "signup": ""
+            "index": "Home",
+            "product":"Product",
+            "search-value": "Search",
+            "search-button": "Search",
+            "signin": "Signin",
+            "signup": "Signup"
         },
         "vi": {
-            "index": "",
-            "product":"",
-            "search-value": "",
-            "search-button": "",
-            "signin": "",
-            "signup": ""
+            "index": "Trang chủ",
+            "product":"Sản Phẩm",
+            "search-value": "Tìm Kiếm",
+            "search-button": "Tìm Kiếm",
+            "signin": "Đăng Nhập",
+            "signup": "Đăng Ký"
         }
     },
     "footer": {
         "en": {
-            "ttshop": "",
-            "detailttshop": "",
-            "news": "",
-            "subscriber": "",
-            "aboutus": "",
-            "delivery": "",
-            "privacy": "",
-            "terms": ""
+            "ttshop": "Shoe Shop",
+            "detailttshop": "Lorem ipsum dolor sit amet consectetur, adipisicingelit. Repellendus, deserunt.",
+            "news": "News",
+            "subscriber": "Signup",
+            "aboutus": "About us",
+            "delivery": "Shipment Details",
+            "privacy": "Privacy Policy",
+            "terms": "Terms and condition"
         },
         "vi": {
-            "ttshop": "",
-            "detailttshop": "",
-            "news": "",
-            "subscriber": "",
-            "aboutus": "",
-            "delivery": "",
-            "privacy": "",
-            "terms": ""
+            "ttshop": "Shop Giầy",
+            "detailttshop": "Lorem ipsum dolor sit amet consectetur, adipisicingelit. Repellendus, người đào tẩu.",
+            "news": "Bản tin",
+            "subscriber": "Đăng ký",
+            "aboutus": "Về chúng tôi",
+            "delivery": "Thông tin giao hàng",
+            "privacy": "Chính sách bảo mật",
+            "terms": "Điều khoản và điều kiện"
         }
     }
 }
