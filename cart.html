@@ -145,6 +145,9 @@
                 if (typeof product === "undefined")
                     continue;
 
+                if (localStorage.key(i) == "product-id" || localStorage.key(i) == "product-name" || localStorage.key(i) == "product-img")
+                    continue;
+
                 let amount = parseInt(window.localStorage.getItem(product.id) ?? "0");
                 let entry = createEntry(product, amount);
                 total += product.price * amount;

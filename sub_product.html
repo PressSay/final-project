@@ -15,7 +15,7 @@
 <body style="background-color: #FAF4E9;">
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="./assets/images/logo.png" alt="Logo" width="32">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Trang Chủ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="product.html">Sản Phẩm</a>
@@ -89,12 +89,12 @@
 
                     <div class="col-md-7">
                         <p class="text-left mt-3" style="color: green; font-weight: bold;">NEW</p>
-                        <h1 class="mt-2 mb-2">Sneaker___Flipflop___Sandals</h1>
+                        <h1 class="mt-2 mb-2" id="titleSP"></h1>
                         <p class="mt-5" style="font-weight: lighter; font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur corrupti, nulla cupiditate, molestiae, hic distinctio minus laborum atque aliquid ullam. Sapiente accusantium saepe quisquam dolore neque iure velit consectetur?</p>
                         <p class="price"><span style="font-weight:inherit">USD : 100$</span></p>
                         <label>Quantily :</label>
-                        <input type="number" value="1" style="height: 25px; width: 50px">
-                        <button type="button" class="btn btn-default" style="background: #FE980F;
+                        <input id="inputnumber" type='number' min='0' max='100' size='3' value='1' style="height: 25px; width: 50px">
+                        <button id="buy" type="button" class="btn btn-default" style="background: #FE980F;
                         color: #faf4e9;
                         font-size: 15px;
                         margin-left: 20px">
@@ -148,8 +148,26 @@
     </main>
 
     <script type="text/javascript" src="./assets/js/product.js"></script>
-    <Script>
-        
+    <Script type="text/javascript">
+        $(async () => {
+            $("#img-card").attr({
+                src: localStorage.getItem("product-img"),
+                alt: localStorage.getItem("product-name")
+            });
+            $("#titleSP").text(localStorage.getItem("product-name"));
+            $("#buy").click(() => {
+		    let number = parseInt($("#inputnumber").val());
+		    if (number == 0) return;
+		    let current = parseInt(window.localStorage.getItem(localStorage.getItem("product-id")) ?? "0");
+		    let total = current + number;
+		    if (total > 100) {
+			    alert("Mỗi mặt hàng chỉ có thể đặt 100 sản phẩm cho ,mỗi đơn hàng. Bạn đã đặt 100 sản phẩm của " + localStorage.getItem("product-name") + " này.");
+			    return;
+		    }
+		    window.localStorage.setItem(localStorage.getItem("product-id"), total);
+		    alert("Đã cập nhật sản phẩm " + localStorage.getItem("product-name") + " với số lượng " + number + " vào giỏ hàng. Số lượng sản phẩm " + localStorage.getItem("product-name") + " đã đặt là " + parseInt(window.localStorage.getItem(localStorage.getItem("product-id"))) + ".");
+	        });
+        })
     </Script>
 
 </body>

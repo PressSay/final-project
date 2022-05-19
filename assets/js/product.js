@@ -12,12 +12,16 @@ function getProductsData() {
 function createCard(product) {
 	let card = $("<div class='card'></div>");
 
-	card.click(() => {
+	
+	let img = $("<img class='card-img-top'></img>");
+
+	img.click(() => {
 		window.location.href = "./sub_product.html";
-		window.localStorage.setItem(product.name, product.imageUrl);
+		window.localStorage.setItem("product-img", product.imageUrl);
+		window.localStorage.setItem("product-name", product.name);
+		window.localStorage.setItem("product-id", product.id);
 	})
 
-	let img = $("<img class='card-img-top'></img>");
 	img.attr({
 		src: product.imageUrl,
 		alt: product.name,
