@@ -5,8 +5,8 @@
             "product":"Product",
             "search_value": "Search",
             "search_button": "Search",
-            "signin": "Signin",
-            "signup": "Signup"
+            "signin": "Sign in",
+            "signup": "Sign up"
         },
         "vi": {
             "index": "Trang chủ",
