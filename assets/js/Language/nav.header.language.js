@@ -30,7 +30,7 @@ function switchNavFooterEn() {
 function switchFooterNavFooterVi() {
     $("#index").text(data.nav.vi.index);
     $("#product").text(data.nav.vi.product);
-    $("#search-value").attr(`placeholder='${data.nav.vi.search_value}'`);
+    $("#search-vaue").attr("placeholder",`${data.nav.vi.search_value}`);
     $("#search-button").text(data.nav.vi.search_button);
     $("#signin").text(data.nav.vi.signin);
     $("#signup").text(data.nav.vi.signup);
