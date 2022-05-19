@@ -1,8 +1,8 @@
 const getProductSrc = (categoryID, productID) => `./assets/images/products/${categoryID}/${productID}.png`;
 
-function getProductsData() {
+function getProductsData(nameJson) {
 	return new Promise((resolve, reject) =>
-		$.getJSON("./data/products.json")
+		$.getJSON(nameJson)
 			.done(data => resolve(data))
 			.fail((_, status, error) => {reject(status + ", " + error)})
 	);
