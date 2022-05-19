@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- chuyen doi ngon ngu -->
+    <script type="text/javascript" src="./assets/js/get.json.js"></script>
+    <script type="text/javascript" src="./assets/js/Language/nav.header.language.js" defer></script>
 </head>
 
 <body>
@@ -33,16 +36,11 @@
                     </li>
                     <li class="nav-item">
                         <form class="d-flex" action="search.html">
-                            <input id="search-value" class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                            <input id="search-vaue" class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
                                 name="word">
-                            <button id="search-button" class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                            <button id="search-buton" class="btn-outline-success btn text-nowrap" type="submit">Tìm
                                 kiếm</button>
                         </form>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#en" class="nav-link d-flex align-self-start">
-                            
-                        </a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -158,7 +156,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-12">
-                    <h4 id="ttshop" class="font-rubik font-size-20">Shop Giầy</h4>
+                    <h4 id="ttshop" class="font-rubik font-size-20">Shop Giày</h4>
                     <p id="detailttshop" class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Repellendus, deserunt.</p>
                 </div>
@@ -178,7 +176,7 @@
                     </form>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <h4 id="infomation-web" class="font-rubik font-size-20">Thông tin</h4>
+                    <h4 id="informationWeb" class="font-rubik font-size-20">Thông tin</h4>
                     <div class="d-flex flex-column flex-wrap">
                         <a id="aboutus" href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
                         <a id="delivery" href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
@@ -207,10 +205,10 @@
         <div class="bd-highlight ">
             <div class="d-flex bd-highlight">
                 <div class="mx-2 py-2 bd-highlight">
-                    <a class="lang" href=""><span >ENG</span></a>
+                    <a class="lang" href="index.html#en"><span >ENG</span></a>
                 </div>
                 <div class="mx-2 py-2 bd-highlight">
-                    <a class="lang" href=""><span>VIE</span></a>
+                    <a class="lang" href="index.html#vi"><span>VIE</span></a>
                 </div>
             </div>
         </div>
@@ -218,11 +216,5 @@
     <div class="copyright text-center bg-dark text-white py-2">
         
     </div>
-    <script type="text/javascript" src="./assets/js/product.js"></script>
-    <script type="text/javascript">
-        $(async () => {
-            
-        });
-    </script>
 </body>
 </html>

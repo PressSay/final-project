@@ -3,16 +3,16 @@
         "en": {
             "index": "Home",
             "product":"Product",
-            "search-value": "Search",
-            "search-button": "Search",
+            "search_value": "Search",
+            "search_button": "Search",
             "signin": "Signin",
             "signup": "Signup"
         },
         "vi": {
             "index": "Trang chủ",
             "product":"Sản Phẩm",
-            "search-value": "Tìm Kiếm",
-            "search-button": "Tìm Kiếm",
+            "search_value": "Tìm Kiếm",
+            "search_button": "Tìm Kiếm",
             "signin": "Đăng Nhập",
             "signup": "Đăng Ký"
         }
@@ -26,7 +26,8 @@
             "aboutus": "About us",
             "delivery": "Shipment Details",
             "privacy": "Privacy Policy",
-            "terms": "Terms and condition"
+            "terms": "Terms and condition",
+            "information_web": "Information"
         },
         "vi": {
             "ttshop": "Shop Giầy",
@@ -36,7 +37,8 @@
             "aboutus": "Về chúng tôi",
             "delivery": "Thông tin giao hàng",
             "privacy": "Chính sách bảo mật",
-            "terms": "Điều khoản và điều kiện"
+            "terms": "Điều khoản và điều kiện",
+            "information_web": "Thông tin"
         }
     }
 }
