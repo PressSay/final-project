@@ -1,0 +1,35 @@
+{
+    "nav": {
+        "en": {
+            "index": "",
+            "product":"",
+            "search-value": "",
+            "search-button": "",
+            "signin": "",
+            "signup": ""
+        },
+        "vi": {
+            "index": "",
+            "product":"",
+            "search-value": "",
+            "search-button": "",
+            "signin": "",
+            "signup": ""
+        }
+    },
+    "footer": {
+        "en": {
+            "ttshop": "",
+            "detailttshop": "",
+            "news": "",
+            "subscriber": "",
+            "aboutus": "",
+            "delivery": "",
+            "privacy": "",
+            "terms": ""
+        },
+        "vi": {
+
+        }
+    }
+}
