@@ -26,23 +26,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                        <a id="index" class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                        <a id="product" class="nav-link" href="product.html">Sản Phẩm</a>
                     </li>
                     <li class="nav-item">
                         <form class="d-flex" action="search.html">
-                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                            <input id="search-value" class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
                                 name="word">
-                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                            <button id="search-button" class="btn-outline-success btn text-nowrap" type="submit">Tìm
                                 kiếm</button>
                         </form>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
-                    <a class="btn btn-outline-secondary mx-1" href="signup.html">Đăng Ký</a>
+                    <a class="btn btn-outline-secondary mx-1" id="signin" href="login.html">Đăng Nhập</a>
+                    <a class="btn btn-outline-secondary mx-1" id="signup" href="signup.html">Đăng Ký</a>
                     <a aria-current="page" href="cart.html">
                         <i class="btn btn-outline-secondary mx-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -153,12 +153,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-12">
-                    <h4 class="font-rubik font-size-20">Shop Giầy</h4>
-                    <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    <h4 id="ttshop" class="font-rubik font-size-20">Shop Giầy</h4>
+                    <p id="detailttshop" class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Repellendus, deserunt.</p>
                 </div>
                 <div class="col-lg-4 col-12 mb-4">
-                    <h4 class="font-rubik font-size-20">Bản tin</h4>
+                    <h4 id="news" class="font-rubik font-size-20">Bản tin</h4>
                     <form>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -167,18 +167,18 @@
                             <input id="email" type="email" class="form-control" placeholder="Email"
                                 aria-describedby="subscribe-desc">
                             <div class="input-group-append">
-                                <button type="submit" class="btn btn-primary">Đăng ký</button>
+                                <button id="subscriber" type="submit" class="btn btn-primary">Đăng ký</button>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <h4 class="font-rubik font-size-20">Thông tin</h4>
+                    <h4 id="infomation-web" class="font-rubik font-size-20">Thông tin</h4>
                     <div class="d-flex flex-column flex-wrap">
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Chính sách bảo mật</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Điều khoản và điều kiện</a>
+                        <a id="aboutus" href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
+                        <a id="delivery" href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
+                        <a id="privacy" href="#" class="font-rale font-size-14 text-white-50 pb-1">Chính sách bảo mật</a>
+                        <a id="terms" href="#" class="font-rale font-size-14 text-white-50 pb-1">Điều khoản và điều kiện</a>
                     </div>
                 </div>
             </div>
