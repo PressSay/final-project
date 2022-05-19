@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <title>Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+</head>
+<body style="background-color: #FAF4E9;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="Logo" width="32">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" action="search.html">
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                                name="word">
+                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
+                                kiếm</button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
+                    <a class="btn btn-outline-secondary mx-1" href="signup.html">Đăng Ký</a>
+                    <a aria-current="page" href="cart.html">
+                        <i class="btn btn-outline-secondary mx-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mt-5" style="background-color: #FFFFFF;">
+        <section>
+            <div class="container">
+                <div class="row pt-4 pb-4">
+                    <div class="col-md-5">
+                    <img class="card-img-top" id="img-card" src="./assets/images/logo.png" alt="" width="12">
+                    </div>
+
+                    <div class="col-md-7">
+                        <h1 class="mt-2 mb-2">About us</h1>
+                        <p class="mt-5" style="font-weight: lighter; font-size: 20px;">Chúng tôi muốn giới thiệu cho bạn một chút về chúng tôi. Chúng tôi là ai, chúng tôi làm gì và những gì là quan trọng đối với chúng tôi.
+                            Có thể, bạn biết đến chúng tôi như hãng hàng không nổi tiếng về cung cấp giày. Nhưng bạn có biết rằng mỗi tuần chúng tôi thực hiện rất nhiều đơn hàng
+                            Và thậm chí còn có nhiều thông tin hơn nữa về chúng tôi! Bạn có thể theo các liên kết tại đây để tìm hiểu triết lý kinh doanh của chúng tôi, về đội bay đầy ấn tượng của chúng tôi và các cơ hội để BẠN có thể đến với Jetstar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="d-flex  bd-highlight flex-column" style="background-color:#FFFFFF;;">
+                <div class="p-2 bd-highlight pt4 d-flex flex-row justify-content-center">
+                    <h1 class="p-2 m-auto color: $light">Leadership</h1>
+                </div>
+                <div class="p-auto bd-highlight">
+                    <div class="d-md-flex bd-highlight mb-3 justify-content-center ">
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
+                            <div class="card" style="width: 16rem;">
+                                <img src="http://hinhnenhd.com/avt-trang-fb/tai-ngay-avt-trang-fb-moi-nhat-dep-nhat-doc-dao-22/" class="card-img-top " alt="...">
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Lâm Phú Quí</h5>
+                                    <h5 class="card-title">CEO</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
+                            <div class="card" style="width: 16rem;">
+                                <img src="http://hinhnenhd.com/avt-trang-fb/tai-ngay-avt-trang-fb-moi-nhat-dep-nhat-doc-dao-23/" class="card-img-top" alt="...">
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Hà Ngọc Tuyết Trân</h5>
+                                    <h5 class="card-title">CEO</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
+                            <div class="card" style="width: 16rem;">
+                                <img src="http://hinhnenhd.com/avt-trang-fb/tai-ngay-avt-trang-fb-moi-nhat-dep-nhat-doc-dao-12/" class="card-img-top" alt="...">
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Trần Hiếu Thiên</h5>
+                                    <h5 class="card-title">CEO</h5>
+                                    <p class="card-text"></p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center p-2 bd-highlight">
+                            <div class="card" style="width: 16rem;">
+                                <img src="http://hinhnenhd.com/avt-trang-fb/tai-ngay-avt-trang-fb-moi-nhat-dep-nhat-doc-dao-12/" class="card-img-top" alt="...">
+                                <div class="card-body" style="background-color:#E3F2FD;">
+                                    <h5 class="card-title">Nguyễn Tuần</h5>
+                                    <h5 class="card-title">CEO</h5>
+                                    <p class="card-text"></p>    
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Shop Giầy</h4>
+                    <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Repellendus, deserunt.</p>
+                </div>
+                <div class="col-lg-4 col-12 mb-4">
+                    <h4 class="font-rubik font-size-20">Bản tin</h4>
+                    <form>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <label for="email" class="input-group-text" id="subscribe-desc">@</label>
+                            </div>
+                            <input id="email" type="email" class="form-control" placeholder="Email"
+                                aria-describedby="subscribe-desc">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Đăng ký</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Thông tin</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Chính sách bảo mật</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Điều khoản và điều kiện</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+        <p class="font-rale font-size-14">&copy; Copyrights 2022</p>
+    </div>
+    <script type="text/javascript" src="./assets/js/product.js"></script>
+    <script type="text/javascript">

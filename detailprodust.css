@@ -1,23 +1,29 @@
 .container
 {
-    margin-top:5px;
-    background-color: #faf4e9;
+    margin-top: 100px;
 }
 .newarrival
 {
     background: green;
-    width: 50px;
-    color: white;
+    width: 100px;
+    color:aliceblue;
     font-size: 20px;
     font-weight: bold;
 }
-.col-md-7
+.col-md-7 h1
 {
-    color: black;
+color: #555;
 }
-input
+.price
 {
-    border: 1px seagreen;
+    color: #FE980F;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.input
+{
+    border: 1px solid #FE980F;
     font-weight: bold;
     height: 33px;
     text-align: center;
@@ -26,7 +32,7 @@ input
 .cart
 {
     background: #FE980F;
-    color: #faf4e9;
+    color: #FFFFFF;
     font-size: 15px;
     margin-left: 20px;
 }
