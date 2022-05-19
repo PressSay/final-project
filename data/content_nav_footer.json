@@ -20,25 +20,27 @@
     "footer": {
         "en": {
             "ttshop": "Shoe Shop",
-            "detailttshop": "Lorem ipsum dolor sit amet consectetur, adipisicingelit. Repellendus, deserunt.",
+            "detailttshop": "The shop sells all kinds of fish-branded shoes",
             "news": "News",
             "subscriber": "Signup",
             "aboutus": "About us",
             "delivery": "Shipment Details",
             "privacy": "Privacy Policy",
             "terms": "Terms and condition",
-            "information_web": "Information"
+            "information_web": "Information",
+            "topsale_header" : "Top sale"
         },
         "vi": {
-            "ttshop": "Shop Giầy",
-            "detailttshop": "Lorem ipsum dolor sit amet consectetur, adipisicingelit. Repellendus, người đào tẩu.",
+            "ttshop": "Shop Giày",
+            "detailttshop": "Shop chuyển bán các loại giày dép mang thương hiệu con cá",
             "news": "Bản tin",
             "subscriber": "Đăng ký",
             "aboutus": "Về chúng tôi",
             "delivery": "Thông tin giao hàng",
             "privacy": "Chính sách bảo mật",
             "terms": "Điều khoản và điều kiện",
-            "information_web": "Thông tin"
+            "information_web": "Thông tin",
+            "topsale_header" : "Bán chạy"
         }
     }
 }
