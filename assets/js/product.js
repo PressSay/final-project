@@ -4,7 +4,7 @@ function getProductsData() {
 	return new Promise((resolve, reject) =>
 		$.getJSON("./data/products.json")
 			.done(data => resolve(data))
-			.fail((_, status, error) => reject(status + ", " + error))
+			.fail((_, status, error) => {reject(status + ", " + error)})
 	);
 }
 
@@ -32,7 +32,7 @@ function createCard(product) {
     let cardBody = $("<div class='card-body'></div>");
 	card.append(cardBody);
 
-    cardBody.append(`<h5 class='card-title text-capitalize'>${product.name}</h5>`);
+    cardBody.append(`<h5 id=${product.id} class='card-title text-capitalize'>${product.name}</h5>`);
 
 	let input = $("<input type='number' min='0' max='100' size='3' value='0'>");
 	cardBody.append(input);
