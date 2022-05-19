@@ -59,10 +59,10 @@ function createCard(product) {
 function createCategory(category) {
 	let section = $("<section></section>");
 
-	section.attr("id", category.id);
+	section.attr("id", category.id+"-section");
 	section.addClass("mt-5");
 
-	section.append(`<h3 class="text-capitalize">${category.name}</h3>`);
+	section.append(`<h3 id="${category.id}" class="text-capitalize">${category.name}</h3>`);
 	section.append("<hr>");
 
 	return section;
