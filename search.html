@@ -71,7 +71,7 @@
         
 
         $(async () => {
-            let data = await getProductsData();
+            let data = await getProductsData("./data/products.json");
             let products = Object.values(getProducts(data));
             console.log(products);
 
