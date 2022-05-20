@@ -1,19 +1,24 @@
-$(async()=>{
+$(async () => {
     $(async () => {
-        let dataProduct = await getProductsData("./data/content_products.json");
+        vi = await getProductsData("./data/vi.json");
+        en = await getProductsData("./data/en.json");
 
-        $("#eng").click(()=>{
-            switchNavFooterEn();
-            $("#abros_olive_punto_o_lace_up_casual_shoes").text(dataProduct.abros_olive_punto_o_lace_up_casual_shoes.en.header);
-            $("#campus_black_explore_mid_top_lace_up_casual_shoes").text(dataProduct.campus_black_explore_mid_top_lace_up_casual_shoes.en.header);
-            $("#campus_black_round_toe_thong_style_flip_flops_").text(dataProduct.campus_black_round_toe_thong_style_flip_flops_.en.header);
+        let dataProduct
+
+        $("#vie").click(() => {
+            dataProduct = vi;
+            switchNavFooterVi(dataProduct.content_nav_footer);
+            $("#abros_olive_punto_o_lace_up_casual_shoes").text(dataProduct.content_products.abros_olive_punto_o_lace_up_casual_shoes.header);
+            $("#campus_black_explore_mid_top_lace_up_casual_shoes").text(dataProduct.content_products.campus_black_explore_mid_top_lace_up_casual_shoes.header);
+            $("#campus_black_round_toe_thong_style_flip_flops_").text(dataProduct.content_products.campus_black_round_toe_thong_style_flip_flops_.header);
         })
-        
-        $("#vie").click(()=>{
-            switchNavFooterVi();
-            $("#abros_olive_punto_o_lace_up_casual_shoes").text(dataProduct.abros_olive_punto_o_lace_up_casual_shoes.vi.header);
-            $("#campus_black_explore_mid_top_lace_up_casual_shoes").text(dataProduct.campus_black_explore_mid_top_lace_up_casual_shoes.vi.header);
-            $("#campus_black_round_toe_thong_style_flip_flops_").text(dataProduct.campus_black_round_toe_thong_style_flip_flops_.vi.header);
+
+        $("#eng").click(() => {
+            dataProduct = en;
+            switchNavFooterEn(dataProduct.content_nav_footer);
+            $("#abros_olive_punto_o_lace_up_casual_shoes").text(dataProduct.content_products.abros_olive_punto_o_lace_up_casual_shoes.header);
+            $("#campus_black_explore_mid_top_lace_up_casual_shoes").text(dataProduct.content_products.campus_black_explore_mid_top_lace_up_casual_shoes.header);
+            $("#campus_black_round_toe_thong_style_flip_flops_").text(dataProduct.content_products.campus_black_round_toe_thong_style_flip_flops_.header);
             // location.reload(true);
         })
     });
