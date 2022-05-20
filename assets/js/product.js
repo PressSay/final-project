@@ -68,14 +68,14 @@ function createCategory(category) {
 	return section;
 }
 
-function getProducts(data) {
+function getProducts(data, dataLanProduct) {
 	let result = {};
 	for ([categoryID, products] of Object.entries(data)) {
 		for ([id, price] of Object.entries(products)) {
 			let product = {
 				id, price,
 				categoryID,
-				name: id.replaceAll("_", " "),
+				name: dataLanProduct[id].header,
 				imageUrl: getProductSrc(categoryID, id)
 			};
 			result[id] = product;

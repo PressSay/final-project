@@ -55,6 +55,19 @@
       $(async () => {
         let data = await getProductsData("./data/products.json");
         
+        let vi = await getProductsData("./data/vi.json");
+        let en = await getProductsData("./data/en.json");
+
+        let datacategory;
+        let content_products;
+
+        if (location.hash==="#en") {
+          datacategory = en.category;
+          content_products = en.content_products;
+        } else {
+          datacategory = vi.category;
+          content_products = vi.content_products;
+        }
 
         const mainDOM = $("main");
 
@@ -63,7 +76,7 @@
         for ([categoryID, products] of Object.entries(data)) {
           let category = {
             id: categoryID,
-            name: categoryID.replaceAll("_", " "),
+            name: datacategory[categoryID],
           };
 
           let categoryDOM = createCategory(category);
@@ -85,7 +98,7 @@
               id,
               price,
               categoryID,
-              name: id.replaceAll("_", " "),
+              name: content_products[id].header,
               imageUrl: getProductSrc(categoryID, id),
             };
             let card = createCard(product);

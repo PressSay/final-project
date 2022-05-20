@@ -1,16 +1,192 @@
 {
-    "content_dilivery": {
+    "content_products": {
         "abros_olive_punto_o_lace_up_casual_shoes": {
-
+            "header": "Abros Olive Punto O Ren Up Giày thường",
+            "detail": "Giày sandal dây bệt gắn khoá hoa trang trí đẹp mắt Mũi tròn kèm quai bản quai mới lạ mang lại nét cá tính Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi làm, dạo phố"
         },
         "campus_black_explore_mid_top_lace_up_casual_shoes": {
-            
+            "header": "Campus Black Explore Mid Top Lace Up Casual Shoes",
+            "detail": "Giày sandal gót trong chuyển màu tinh tế, sang trọng và ấn tượng Phần quai ngang mảnh, phối họa tiết chữ tạo điểm nhấn nổi bật Chất liệu da tổng hợp cao cấp, bền đẹp, dễ vệ sinh"
+        },
+        "skechers_navy_ultra_flex_2_0_casual_shoes": {
+            "header": "Giày thường Skechers Navy Ultra Flex 2 0",
+            "detail": "Giày sandal gót nhọn quai hậu nhún mới lạ Thiết kế mũi vuông hở mũi cùng quai mảnh nhún mang lại nét thời trang, sành điệu Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
+        },
+        "the_indian_garage_co_brown_lace_up_boat_shoes_with_moc_stitch_upper": {
+            "header": "Giày thường Skechers Navy Ultra Flex 2 0",
+            "detail": "Giày sandal 3 dây quai nhún nổi bật Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi làm, dạo phố"
+        },
+        "u_s__polo_assn__black_textured_slip_on_casual_shoes": {
+            "header": "U S Polo Assn Đen có họa tiết trên giày thường",
+            "detail": "Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp"
+        },
+        "u_s__polo_assn__grey_aaron_2_0_slip_on_shoes" : {
+            "header":"U S Polo Assn Grey Aaron 2 0 Giày trượt trên",
+            "detail":"Mũi vuông kèm quai bản quai mới lạ mang lại nét cá tính"
+        },
+        "campus_black_round_toe_thong_style_flip_flops_": {
+            "header": "Dép xỏ ngón phong cách Campus Black Round Toe Thong",
+            "detail": "Giày sandal quai ngang cut out mới lạ, nổi bật"
+        },
+        "nike_navy_blue_brand_print_slides": {
+            "header": "Trang trình bày in nhãn hiệu màu xanh hải quân của Nike",
+            "detail": "Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
+        },
+        "superdry_blue_printed_beach_slides": {
+            "header": "Trượt bãi biển in màu xanh Superdry",
+            "detail": "Giày sandal phối xích gắn khoá evil eye trẻ trung, hiện đại"
+        },
+        "u_s__polo_assn__black_brand_print_thong_strap_flip_flops": {
+            "header": "U S Polo Assn Black Brand Print Thong Strap Dép xỏ ngón",
+            "detail": "Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
+        },
+        "u_s__polo_assn__black_zane_2_0_logo_print_slides": {
+            "header": "U S Polo Assn Black Zane 2 0 Logo in Trang trình bày",
+            "detail": "Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
+        },
+        "u_s__polo_assn__navy_blue_specter_3_0_logo_embossed_slides": {
+            "header": "U S Polo Assn Navy Blue Spectre 3 0 Logo Trang trình bày nổi",
+            "detail": "Giày sandal phối quai chéo mới lạ, hiện đại"
+        },
+        "carlton_london_black_lace_up_formal_derby_shoes": {
+            "header": "Carlton London Black Lace Up Formal Derby Shoes",
+            "detail": "Mũi vuông kèm quai bản to mang lại nét cá tính"
+        },
+        "carlton_london_brown_lace_up_formal_oxford_shoes": {
+            "header": "Carlton London Brown Ren Up Formal Shoes Oxford",
+            "detail": "Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
+        },
+        "leatherkraft_brown_panelled_lace_up_derby_shoes": {
+            "header": "Giày Derby Leatherkraft Nâu Paneled Ren Up",
+            "detail": "Giày sandal bệt mũi vuông quai ngang trẻ trung, năng động"
+        },
+        "stelvio_black_panelled_glossy_oxfords_with_broguing": {
+            "header": "Stelvio Black Paneled Oxfords Glossy with Broguing",
+            "detail": "Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
+        },
+        "stelvio_brown_monk_style_formal_shoes_with_broguing": {
+            "header": "Giày Stelvio Brown Phong cách Tu sĩ trang trọng với Broguing",
+            "detail": "Chất liệu da tổng hợp bền đẹp, dễ vệ sinh"
+        },
+        "stelvio_dark_brown_low_top_moccasins_with_stacked_heels": {
+            "header": "Stelvio Nâu đậm, Moccasins hàng đầu thấp với gót xếp chồng lên nhau",
+            "detail": "Đế giày êm nhẹ, có rãnh chống trượt bên dưới giúp việc di"
+        },
+        "carlton_london_black_dual_strap_slip_on_sandals": {
+            "header": "Carlton London Black Dual Strap Slip On Sandals",
+            "detail": "Giày sandal cắt lazer charm trái cây mạng lại nét trẻ trung,"
+        },
+        "carlton_london_olive_green_dual_strap_slip_on_sandals": {
+            "header": "Carlton London Olive Green Dual Strap Slip On Sandals",
+            "detail": "Quai giày mảnh tạo điểm nhấn, giúp chân thon gọn hơn"
+        },
+        "crocs_black_bayaband_slingback_clogs": {
+            "header": "Sabots Crocs Bayaband Slingback noirs",
+            "detail": "Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như"
+        },
+        "crocs_grey_bayaband_slip_on_clogs": {
+            "header": "Crocs Grey Bayaband trượt trên guốc",
+            "detail": "Giày sandal mũi vuông đính dây xích trang trí nổi bật, tạo"
+        },
+        "crocs_navy_bayaband_slingback_clogs": {
+            "header": "Crocs Navy Bayaband Slingback Guốc",
+            "detail": "Phần quai cài tiện dùng, kết hợp với đế bệt giúp nàng thoải"
+        },
+        "crocs_white_bayaband_clogs_with_slingback": {
+            "header": "Giày Crocs White Bayaband có quai hậu",
+            "detail": "Chất liệu da tổng hợp cao cấp, phù hợp mang dạo phố, đi"
+        },
+        "adidas_black_round_toe_lace_up_sports_shoes": {
+            "header": "Giày thể thao Adidas Black Round Toe Lace Up",
+            "detail": "Giày sandal bệt dây mảnh xỏ ngón trẻ trung, hiện đại"
+        },
+        "campus_blue_milan_textured_low_top_sports_shoes": {
+            "header": "Campus Blue Milan Giày thể thao hàng đầu thấp có kết cấu",
+            "detail": "Mũi tròn kèm quai xỏ nhón giúp bàn chân thon nhỏ hơn"
+        },
+        "campus_blue_rockee_panelled_slip_on_running_shoes": {
+            "header": "Campus Blue Rockee Paneled Slip on Running Shoes",
+            "detail": "Chất liệu da tổng hợp cao cấp, phù hợp mang nhiều dịp: đi"
+        },
+        "levis_white_textured_lace_up_sneakers": {
+            "header": "Levis White Textured Sneakers",
+            "detail": " Giày mules mũi vuông quai mảnh tạo cảm giác nhẹ nhàng, nữ tính"
+        },
+        "nike_black_airmax_impact_3_logo_print_lace_up_basketball_shoes": {
+            "header": "Giày bóng rổ Nike Black Air Max Impact 3 in logo",
+            "detail": "Quai giày mảnh đan chéo là điểm nhấn, giúp chân thon gọn hơn."
+        },
+        "nike_blue_downshifter_11_textured_lace_up_running_shoes": {
+            "header": "Giày chạy bộ Nike Blue Downshifter 11 Texture Ren Up",
+            "detail": "Chất liệu da cao cấp tổng hợp. Giày phù hợp đi mọi dịp, như đi làm, dạo phố"
         }
     },
     "content_nav_footer": {
-        
+        "nav": {
+            "index": "Trang chủ",
+            "product": "Sản Phẩm",
+            "search_value": "Tìm Kiếm",
+            "search_button": "Tìm Kiếm",
+            "signin": "Đăng Nhập",
+            "signup": "Đăng Ký"
+        },
+        "footer": {
+            "ttshop": "Shop Giày",
+            "detailttshop": "Shop chuyển bán các loại giày dép mang thương hiệu con cá",
+            "news": "Bản tin",
+            "subscriber": "Đăng ký",
+            "aboutus": "Về chúng tôi",
+            "delivery": "Thông tin giao hàng",
+            "privacy": "Chính sách bảo mật",
+            "terms": "Điều khoản và điều kiện",
+            "information_web": "Thông tin",
+            "topsale_header": "Bán chạy"
+        }
     },
-    "content_product": {
-
+    "content_delivery": {
+        "ttdelivery1": "Phân phối hàng",
+        "pdelivery1": "Chúng tôi biết rằng một khi bạn đã chọn được đôi giày phù hợp với phong cách của mình, bạn sẽ muốn nhận được nó càng sớm càng tốt.",
+        "pdelivery2": "Trong thời gian dịch COVID-19 bùng phát, chúng tôi đang cố gắng hết sức để giữ cho thời gian gửi và giao hàng chính xác và cập nhật nhất có thể. Bạn có thể theo dõi tình trạng đơn đặt hàng trực tuyến của mình, nhanh chóng và dễ dàng, ngay tại",
+        "adelivery1": "đây",
+        "ttdelivery2": "Giao hàng không tiếp xúc nhanh chóng và đáng tin cậy",
+        "pdelivery3": "Giao hàng của chúng tôi có áp dụng miễn phí giao hàng cho những đơn có giá trị trên 100$ và còn có nhiều mã giảm giá được áp dụng. Đơn hàng trong nội thành thành phố có áp dụng giao nhanh trong ngày còn ngoại thành có thể mất chỉ từ 3-5 ngày bạn có thể nhận được đơn hàng của mình.",
+        "ttdelivery3": "Giao hàng toàn quốc và quốc tế",
+        "pdelivery4": "Chúng tôi đảm bảo giao hàng cho tất cả các tỉnh trong nước và ngoài ra còn có dịch vụ giao hàng ngoài nước với thêm mức phí giao hàng 15$.",
+        "ttdelivery4": "Câu hỏi thường gặp",
+        "ttdelivery5": "Đơn hàng của tôi đang ở đâu?",
+        "pdelivery5": "Bạn có thể nhấn vào phần giỏ hàng bên góc phải bên trên để hiển thị thông tin đơn hàng.",
+        "ttdelivery6": "Thời gian giao hàng?",
+        "pdelivery6": "Chúng tôi áp dụng giao hàng nhanh trong nước chỉ mất 2-3 ngày bạn có thể nhận hàng. Chúng tôi sẽ liên hệ khi đơn hàng sắp chuyển đến bạn.",
+        "ttdelivery7": "Điều gì sẽ xảy ra khi tôi không có ở nhà khi giao hàng đến?",
+        "pdelivery7": "Chúng tôi sẽ cho đơn hàng của bạn vào kho dự trữ và khi nào bạn muốn nhận bạn cần liên hệ chúng tôi qua hotline: 09999185."
+    },
+    "content_aboutus": {
+        "ttdelivery1": "Phân phối hàng",
+        "pdelivery1": "Chúng tôi biết rằng một khi bạn đã chọn được đôi giày phù hợp với phong cách của mình, bạn sẽ muốn nhận được nó càng sớm càng tốt.",
+        "pdelivery2": "Trong thời gian dịch COVID-19 bùng phát, chúng tôi đang cố gắng hết sức để giữ cho thời gian gửi và giao hàng chính xác và cập nhật nhất có thể. Bạn có thể theo dõi tình trạng đơn đặt hàng trực tuyến của mình, nhanh chóng và dễ dàng, ngay tại",
+        "adelivery1": "đây",
+        "ttdelivery2": "Giao hàng không tiếp xúc nhanh chóng và đáng tin cậy",
+        "pdelivery3": "Giao hàng của chúng tôi có áp dụng miễn phí giao hàng cho những đơn có giá trị trên 100$ và còn có nhiều mã giảm giá được áp dụng. Đơn hàng trong nội thành thành phố có áp dụng giao nhanh trong ngày còn ngoại thành có thể mất chỉ từ 3-5 ngày bạn có thể nhận được đơn hàng của mình.",
+        "ttdelivery3": "Giao hàng toàn quốc và quốc tế",
+        "pdelivery4": "Chúng tôi đảm bảo giao hàng cho tất cả các tỉnh trong nước và ngoài ra còn có dịch vụ giao hàng ngoài nước với thêm mức phí giao hàng 15$.",
+        "ttdelivery4": "Câu hỏi thường gặp",
+        "ttdelivery5": "Đơn hàng của tôi đang ở đâu?",
+        "pdelivery5": "Bạn có thể nhấn vào phần giỏ hàng bên góc phải bên trên để hiển thị thông tin đơn hàng.",
+        "ttdelivery6": "Thời gian giao hàng?",
+        "pdelivery6": "Chúng tôi áp dụng giao hàng nhanh trong nước chỉ mất 2-3 ngày bạn có thể nhận hàng. Chúng tôi sẽ liên hệ khi đơn hàng sắp chuyển đến bạn.",
+        "ttdelivery7": "Điều gì sẽ xảy ra khi tôi không có ở nhà khi giao hàng đến?",
+        "pdelivery7": "Chúng tôi sẽ cho đơn hàng của bạn vào kho dự trữ và khi nào bạn muốn nhận bạn cần liên hệ chúng tôi qua hotline: 09999185."
+    },
+    "content_privacy_policy": {
+        "ttaboutus1": "Về Chúng Tôi",
+        "paboutus1": "Có thể, bạn biết đến chúng tôi như hãng hàng không nổi tiếng về cung cấp giày. Nhưng bạn có biết rằng mỗi tuần chúng tôi thực hiện rất nhiều đơn hàng. Và thậm chí còn có nhiều thông tin hơn nữa về chúng tôi! Bạn có thể theo các liên kết tại đây để tìm hiểu triết lý kinh doanh của chúng tôi, về đội bay đầy ấn tượng của chúng tôi và các cơ hội để BẠN có thể đến với Jetstar.",
+        "ttaboutus2": "Các Thành Viên Của Chúng Tôi"
+    },
+    "category": {
+        "casual": "Bình Thường",
+        "flip_flop_slippers": "Dép Xỏ Ngón",
+        "formal": "Chính Thức",
+        "sandals": "Dép Xăng Đan",
+        "sneaker": "Giày Thể Thao"
     }
 }

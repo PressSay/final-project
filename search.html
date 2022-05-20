@@ -31,7 +31,20 @@
             let ws = word.toLowerCase().trim();
             $("#searchid").val(ws)
             let data = await getProductsData("./data/products.json");
-            let products = Object.values(getProducts(data));
+
+            let vi = await getProductsData("./data/vi.json");
+            let en = await getProductsData("./data/en.json");
+
+            let products;
+            let nameCategory;
+
+            if (location.hash === "#en") {
+                products = Object.values(getProducts(data, en.content_products));
+                nameCategory = en.category;
+            } else {
+                products = Object.values(getProducts(data, vi.content_products));
+                nameCategory = vi.category;
+            }
             console.log(products);
 
             let count = 0;
@@ -47,7 +60,7 @@
                         categoryID = data.categoryID
                         let category = {
                             id: categoryID,
-                            name: categoryID.replaceAll("_", " ")
+                            name: nameCategory[categoryID]
                         }
                         categoryDOM = createCategory(category);
                         mainDOM.append(categoryDOM);
