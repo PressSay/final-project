@@ -1,26 +1,28 @@
 {
     "vi": {
-        "liprivacy1": "",
-        "liprivacy2": "",
-        "liprivacy3": "",
-        "liprivacy4": "",
-        "liprivacy5": "",
-        "liprivacy6": "",
-        "liprivacy7": "",
-        "liprivacy8": "",
-        "liprivacy9": "",
-        "liprivacy10": ""
+        "ttprivacy":"CHÍNH SÁCH BẢO MẬT VÀ CHIA SẺ THÔNG TIN",
+        "liprivacy1": "Chính sách bảo mật và chia sẻ thông tin này nhằm đảm bảo an toàn thông tin liên quan đến tổ chức,cá nhân tham gia và/hoặc giao dịch trên website.",
+        "liprivacy2": "Giao hàng cho quý khách đã mua sản phẩm tại.",
+        "liprivacy3": "Cung cấp thông tin liên quan đến sản phẩm.",
+        "liprivacy4": "Thông báo về việc giao hàng và hỗ trợ khách hàng.",
+        "liprivacy5": "Xử lý đơn đặt hàng và cung cấp dịch vụ,thông tin qua trang web của chúng tôi theo yêu cầu của quý khách.",
+        "liprivacy6": "Khi Khách Hàng thực hiện giao dịch tại website, khách hàng phải cung cấp một số thông tin cần thiết cho việc thực hiện giao dịch để được áp dụng những chính sách ưu đãi dành cho khách hàng.",
+        "liprivacy7": "Khách hàng có trách nhiệm đảm bảo những thông tin khách hàng cung cấp là đầy đủ và chính xác và luôn cập nhật thông tin để đảm bảo tính đầy đủ và chính xác. Web giày không chịu trách nhiệm giải quyết bất kỳ tranh chấp nào nếu thông tin khách hàng cung cấp không chính xác hoặc không được cập nhật hoặc giả mạo. Mọi thông tin khách hàng,cũng như các thông tin trao đổi giữa khách hàng và Rabity đều được lưu giữ và bảo mật bởi hệ thống của website.",
+        "liprivacy8": "Website có các biện pháp thích hợp về kỹ thuật và an ninh để ngăn chặn việc truy cập,sử dụng trách phép thông tin khách hàng.",
+        "liprivacy9": "Website cũng thường xuyên phối hợp với các chuyên gia bảo mật nhằm cập nhật những thông tin mới nhất về an ninh mạng để đảm bảo sự an toàn cho thông tin khách hàng khi Khách hàng truy cập,đăng ký mua hàng.",
+        "liprivacy10": "Các thông tin thanh toán của khách hàng được chúng tôi bảo vệ theo tiêu chuẩn quốc tế với nguyên tắc không ghi nhận các dữ liệu quan trọng của thẻ(số thẻ,họ tên,số CVV)trên hệ thống của Website. Giao dịch thanh toán của khách hàng được thực hiện trên hệ thống của ngân hàng liên kết với Website."
     },
     "en": {
-        "liprivacy1": "",
-        "liprivacy2": "",
-        "liprivacy3": "",
-        "liprivacy4": "",
-        "liprivacy5": "",
-        "liprivacy6": "",
-        "liprivacy7": "",
-        "liprivacy8": "",
-        "liprivacy9": "",
-        "liprivacy10": ""
+        "ttprivacy":"PRIVACY POLICY AND INFORMATION SHARING",
+        "liprivacy1": "This privacy and information sharing policy is intended to ensure the safety of information related to organizations and individuals participating and/or transacting on the website.",
+        "liprivacy2": "Delivery to customers who have purchased products at.",
+        "liprivacy3": "Provide product related information.",
+        "liprivacy4": "Delivery notice and customer support.",
+        "liprivacy5": "Process orders and provide services and information through our website at your request.",
+        "liprivacy6": "When the Customer makes a transaction at the website, the customer must provide some necessary information for the transaction to be applied preferential policies for customers.",
+        "liprivacy7": "It is the responsibility of the customer to ensure that the information provided by the customer is complete and accurate and to always update the information to ensure completeness and accuracy. Shoe Web is not responsible for resolving any dispute if the information provided by the customer is incorrect or not up to date or is forged. All customer information, as well as information exchanged between customers and Rabity are kept and confidential by the website's system.",
+        "liprivacy8": "Website has appropriate technical and security measures to prevent unauthorized access and use of customer information.",
+        "liprivacy9": "The website also regularly cooperates with security experts to update the latest information on network security to ensure the safety of customer information when customers access, register to purchase.",
+        "liprivacy10": "The payment information of customers is protected by us according to international standards with the principle of not recording important card data (card number, full name, CVV number) on the Website's system. Payment transactions of customers are made on the system of the bank linked to the Website."
     }
 }
