@@ -27,23 +27,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Sản Phẩm</a>
+                        <a class="nav-link" href="product.html">Product</a>
                     </li>
                     <li class="nav-item">
                         <form class="d-flex" action="search.html">
-                            <input id="searchid" class="form-control me-2" type="search" placeholder="Tìm kiếm"
+                            <input id="searchid" class="form-control me-2" type="search" placeholder="Search"
                                 aria-label="Search" name="word">
-                            <button class="btn-outline-success btn text-nowrap" type="submit">Tìm
-                                kiếm</button>
+                            <button class="btn-outline-success btn text-nowrap" type="submit">Search</button>
                         </form>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <a class="btn btn-outline-secondary mx-1" href="login.html">Đăng Nhập</a>
-                    <a class="btn btn-outline-secondary mx-1" href="signup.html">Đăng Ký</a>
+                    <a class="btn btn-outline-secondary mx-1" href="login.html">sign in</a>
+                    <a class="btn btn-outline-secondary mx-1" href="signup.html">sigin up</a>
                     <a aria-current="page" href="cart.html">
                         <i class="btn btn-outline-secondary mx-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -67,11 +66,11 @@
         let url = new URL(window.location);
         let ws = url.searchParams.get("word").toLowerCase().trim();
         $("#searchid").val(ws)
-
+        
         
 
         $(async () => {
-            let data = await getProductsData();
+            let data = await getProductsData("./data/products.json");
             let products = Object.values(getProducts(data));
             console.log(products);
 
