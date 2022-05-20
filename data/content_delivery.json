@@ -1,46 +1,48 @@
 {
     "vi": {
-        "ttdelivery1": "",
-        "pdelivery1": "",
-        "pdelivery2": "",
+        "ttdelivery1": "Phân phối hàng",
+        "pdelivery1": "Chúng tôi biết rằng một khi bạn đã chọn được đôi giày phù hợp với phong cách của mình, bạn sẽ muốn nhận được nó càng sớm càng tốt.",
+        "pdelivery2": "Trong thời gian dịch COVID-19 bùng phát, chúng tôi đang cố gắng hết sức để giữ cho thời gian gửi và giao hàng chính xác và cập nhật nhất có thể. Bạn có thể theo dõi tình trạng đơn đặt hàng trực tuyến của mình, nhanh chóng và dễ dàng, ngay tại",
+        "adelivery1": "đây",
+        
+        "ttdelivery2": "Giao hàng không tiếp xúc nhanh chóng và đáng tin cậy",
+        "pdelivery3": "Giao hàng của chúng tôi có áp dụng miễn phí giao hàng cho những đơn có giá trị trên 100$ và còn có nhiều mã giảm giá được áp dụng. Đơn hàng trong nội thành thành phố có áp dụng giao nhanh trong ngày còn ngoại thành có thể mất chỉ từ 3-5 ngày bạn có thể nhận được đơn hàng của mình.",
 
-        "ttdelivery2": "",
-        "pdelivery3": "",
+        "ttdelivery3": "Giao hàng toàn quốc và quốc tế",
+        "pdelivery4": "Chúng tôi đảm bảo giao hàng cho tất cả các tỉnh trong nước và ngoài ra còn có dịch vụ giao hàng ngoài nước với thêm mức phí giao hàng 15$.",
 
-        "ttdelivery3": "",
-        "pdelivery4": "",
+        "ttdelivery4": "Câu hỏi thường gặp",
 
-        "ttdelivery4": "",
+        "ttdelivery5": "Đơn hàng của tôi đang ở đâu?",
+        "pdelivery5": "Bạn có thể nhấn vào phần giỏ hàng bên góc phải bên trên để hiển thị thông tin đơn hàng.",
 
-        "ttdelivery5": "",
-        "pdelivery5": "",
+        "ttdelivery6": "Thời gian giao hàng?",
+        "pdelivery6": "Chúng tôi áp dụng giao hàng nhanh trong nước chỉ mất 2-3 ngày bạn có thể nhận hàng. Chúng tôi sẽ liên hệ khi đơn hàng sắp chuyển đến bạn.",
 
-        "ttdelivery6": "",
-        "pdelivery6": "",
-
-        "ttdelivery7": "",
-        "pdelivery7": ""
+        "ttdelivery7": "Điều gì sẽ xảy ra khi tôi không có ở nhà khi giao hàng đến?",
+        "pdelivery7": "Chúng tôi sẽ cho đơn hàng của bạn vào kho dự trữ và khi nào bạn muốn nhận bạn cần liên hệ chúng tôi qua hotline: 09999185."
     },
     "en": {
-        "ttdelivery1": "",
-        "pdelivery1": "",
-        "pdelivery2": "",
+        "ttdelivery1": "Distribution of goods",
+        "pdelivery1": "We know that once you've picked the right shoe for your style, you'll want to get it as soon as possible.",
+        "pdelivery2": "During the COVID-19 outbreak, we are doing our best to keep shipping and delivery times as accurate and up-to-date as possible. You can track the status of your orders online, quickly and easily, right at",
+        "adelivery1": "here",
+        
+        "ttdelivery2": "Quick and reliable contactless delivery",
+        "pdelivery3": "Our shipping offers free shipping on orders over $100 and many discount codes apply. Orders within the city are subject to same-day fast delivery, while suburban areas may take only 3-5 days to receive your order.",
 
-        "ttdelivery2": "",
-        "pdelivery3": "",
+        "ttdelivery3": "Nationwide and international shipping",
+        "pdelivery4": "We guarantee delivery to all provinces in the country and also have an international delivery service for an additional $15 delivery fee.",
 
-        "ttdelivery3": "",
-        "pdelivery4": "",
+        "ttdelivery4": "FAQ",
 
-        "ttdelivery4": "",
+        "ttdelivery5": "Where is my order?",
+        "pdelivery5": "You can click on the shopping cart in the upper right corner to display order information.",
 
-        "ttdelivery5": "",
-        "pdelivery5": "",
+        "ttdelivery6": "Time to deliver?",
+        "pdelivery6": "We apply fast domestic delivery, it only takes 2-3 days for you to receive the goods. We will contact you when the order is about to be shipped to you.",
 
-        "ttdelivery6": "",
-        "pdelivery6": "",
-
-        "ttdelivery7": "",
-        "pdelivery7": ""
+        "ttdelivery7": "What happens when I am not at home when the delivery arrives?",
+        "pdelivery7": "We will put your order in stock and when you want to receive it you need to contact us via hotline: 09999185."
     }
 }
