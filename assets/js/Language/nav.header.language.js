@@ -17,6 +17,7 @@ function switchNavFooterEn(data) {
     $("#privacy").text(data.footer.privacy);
     $("#terms").text(data.footer.terms);
     $("#topsale_header").text(data.footer.topsale_header);
+    $("#formsearch").attr("action","search.html#en");
 }
 
 function switchNavFooterVi(data) {
@@ -38,5 +39,6 @@ function switchNavFooterVi(data) {
     $("#privacy").text(data.footer.privacy);
     $("#terms").text(data.footer.terms);
     $("#topsale_header").text(data.footer.topsale_header);
+    $("#formsearch").attr("action","search.html#vi");
     // location.reload(true);
 }

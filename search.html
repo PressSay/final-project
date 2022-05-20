@@ -11,6 +11,9 @@
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./assets/css/search.css">
+    <!-- chuyen ngon ngu nav -->
+    <script type="text/javascript" src="./assets/js/get.json.js"></script>
+    <script type="text/javascript" src="./assets/js/Language/nav.header.language.js"></script>
     <!-- nav footer -->
     <script type="text/javascript" src="./assets/js/navfooter/nav.js"></script>
 </head>
@@ -37,8 +40,11 @@
 
             let products;
             let nameCategory;
+            let dataProduct;
 
             if (location.hash === "#en") {
+                dataProduct = en;
+                switchNavFooterEn(dataProduct.content_nav_footer);
                 products = Object.values(getProducts(data, en.content_products));
                 nameCategory = en.category;
             } else {
