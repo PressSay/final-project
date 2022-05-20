@@ -14,7 +14,7 @@ $(async () => {
     })
 
     vie.click(() => {
-        switchFooterNavFooterVi();
+        switchNavFooterVi();
         for ([key, value] of Object.entries(dataProduct)) {
             $("#"+key).text(value.vi.header);
         }
