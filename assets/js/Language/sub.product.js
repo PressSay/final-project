@@ -11,7 +11,7 @@ $(async () => {
     })
 
     vie.click(() => {
-        switchFooterNavFooterVi();
+        switchNavFooterVi();
         $("#titleSP").text(dataProduct[localStorage.getItem("product-id")].vi.header);
         $("#contentProduct").text(dataProduct[localStorage.getItem("product-id")].vi.detail);
     })

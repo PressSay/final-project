@@ -1,9 +1,7 @@
 let data;
-let dataProduct;
 
 $(async () => {
     data = await getProductsData("./data/content_nav_footer.json");
-    dataProduct = await getProductsData("./data/content_products.json");
 });
 
 function switchNavFooterEn() {
