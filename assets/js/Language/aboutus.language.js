@@ -1,19 +1,49 @@
 $(async()=>{
-    let data_aboutus = await getProductsData("./data/content_aboutus.json");
+    vi = await getProductsData("./data/vi.json");
+    en = await getProductsData("./data/en.json");
+
+    let dataProduct;
+    
+    if (location.hash === "#en") {
+        dataProduct = en;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+        $("#ttaboutus1").text(dataProduct.content_aboutus.ttaboutus1);
+        $("#paboutus1").text(dataProduct.content_aboutus.paboutus1);
+        $("#ttaboutus2").text(dataProduct.content_aboutus.ttaboutus2);
+        $("#index").attr("href", "index.html#en");
+        $("#product").attr("href", "product.html#en");
+        $("formsearch").attr("action","search.html#en");
+    } else if (location.hash === "#vi") {
+        dataProduct = vi;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+        $("#ttaboutus1").text(dataProduct.content_aboutus.ttaboutus1);
+        $("#paboutus1").text(dataProduct.content_aboutus.paboutus1);
+        $("#ttaboutus2").text(dataProduct.content_aboutus.ttaboutus2);
+        $("#index").attr("href", "index.html#vi");
+        $("#product").attr("href", "product.html#vi");
+        $("formsearch").attr("action","search.html#vi");
+    }
 
     $("#eng").click(()=>{
-        switchNavFooterEn();
-        $("#ttaboutus1").text(data_aboutus.en.ttaboutus1);
-        $("#paboutus1").text(data_aboutus.en.paboutus1);
-        $("#ttaboutus2").text(data_aboutus.en.ttaboutus2);
-        
+        dataProduct = en;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+        $("#ttaboutus1").text(dataProduct.content_aboutus.ttaboutus1);
+        $("#paboutus1").text(dataProduct.content_aboutus.paboutus1);
+        $("#ttaboutus2").text(dataProduct.content_aboutus.ttaboutus2);
+        $("#index").attr("href", "index.html#en");
+        $("#product").attr("href", "product.html#en");
+        $("formsearch").attr("action","search.html#en");
     });
 
     $("#vie").click(()=>{
-        switchNavFooterVi();
-        $("#ttaboutus1").text(data_aboutus.vi.ttaboutus1);
-        $("#paboutus1").text(data_aboutus.vi.paboutus1);
-        $("#ttaboutus2").text(data_aboutus.vi.ttaboutus2);
+        dataProduct = vi;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+        $("#ttaboutus1").text(dataProduct.content_aboutus.ttaboutus1);
+        $("#paboutus1").text(dataProduct.content_aboutus.paboutus1);
+        $("#ttaboutus2").text(dataProduct.content_aboutus.ttaboutus2);
+        $("#index").attr("href", "index.html#vi");
+        $("#product").attr("href", "product.html#vi");
+        $("formsearch").attr("action","search.html#vi");
     });
 
 })

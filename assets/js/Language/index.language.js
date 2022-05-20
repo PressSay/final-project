@@ -3,7 +3,8 @@ $(async () => {
         vi = await getProductsData("./data/vi.json");
         en = await getProductsData("./data/en.json");
 
-        let dataProduct
+        let dataProduct;
+
 
         $("#vie").click(() => {
             dataProduct = vi;

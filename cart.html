@@ -138,7 +138,11 @@
 
         $(async () => {
             let data = await getProductsData("./data/products.json");
-            let products = getProducts(data);
+            let en = await getProductsData("./data/en.json");
+
+            let products = getProducts(data, en.content_products);
+
+
             let cart = $("#cart");
             for (let i = 0; i < window.localStorage.length; i++) {
                 let product = products[window.localStorage.key(i)];

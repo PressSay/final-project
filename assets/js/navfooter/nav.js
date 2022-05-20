@@ -13,13 +13,13 @@ $(async()=>{
     let ul_navbar_me_auto = $("<ul class='navbar-nav me-auto mb-2 mb-lg-0'></ul>");
 
     let li_nav_item_index = $("<li class='nav_item'></li>");
-    let index = $("<a id='index' class='nav-link active' aria-current='page' href='index.html#vi'>Trang Chủ</a>");
+    let index = $("<a id='index' class='nav-link active' aria-current='page' href='index.html'>Trang Chủ</a>");
 
     let li_nav_item_sp = $("<li class='nav-item'></li>");
-    let sp = $("<a id='product' class='nav-link' href='product.html#vi'>Sản Phẩm</a>");
+    let sp = $("<a id='product' class='nav-link' href='product.html'>Sản Phẩm</a>");
 
     let li_nav_item_form = $("<li class='nav-item'></li>");
-    let form = $("<form class='d-flex' action='search.html#vi'`></form>");
+    let form = $("<form id='formsearch' class='d-flex' action='search.html'`></form>");
     let input_search = $("<input id='search-vaue' class='form-control me-2' type='search' placeholder='Tìm kiếm' aria-label='Search' name='word'/>");
     let button_search = $("<button id='search-buton' class='btn-outline-success btn text-nowrap' type='submit'>Tìm kiếm</button>");
 

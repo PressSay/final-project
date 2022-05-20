@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,50 +14,13 @@
     <script type="text/javascript" src="./assets/js/get.json.js"></script>
     <script type="text/javascript" src="./assets/js/Language/nav.header.language.js"></script>
     <script type="text/javascript" src="./assets/js/Language/sub.product.js"></script>
+    <!-- nav footer -->
+    <script type="text/javascript" src="./assets/js/navfooter/nav.js"></script>
+    <script type="text/javascript" src="./assets/js/navfooter/footer.js"></script>
 </head>
+
 <body style="background-color: #FAF4E9;">
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/images/logo.png" alt="Logo" width="32">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a id="index" class="nav-link active" aria-current="page" href="index.html">Trang Chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="product" class="nav-link" href="product.html">Sản Phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <form class="d-flex" action="search.html">
-                            <input id="search-vaue" class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
-                                name="word">
-                            <button id="search-buton" class="btn-outline-success btn text-nowrap" type="submit">Tìm
-                                kiếm</button>
-                        </form>
-                    </li>
-                </ul>
-                <div class="d-flex">
-                    <a class="btn btn-outline-secondary mx-1" id="signin" href="login.html">Đăng Nhập</a>
-                    <a class="btn btn-outline-secondary mx-1" id="signup" href="signup.html">Đăng Ký</a>
-                    <a aria-current="page" href="cart.html">
-                        <i class="btn btn-outline-secondary mx-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-cart" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </svg>
-                        </i>
-                    </a>
-                </div>
-            </div>
-        </div>
     </nav>
 
     <main class="container my-5" style="background-color: #E3F2FD; border-radius: 12px; box-shadow:  0 0 12px #999999;">
@@ -66,61 +30,35 @@
                 <div class="row pt-4 pb-4">
                     <div class="col-md-5">
 
-                    <img class="card-img-top" id="img-card" src="./assets/images/products/flip_flop_slippers/campus_black_round_toe_thong_style_flip_flops_.png">
+                        <img class="card-img-top" id="img-card"
+                            src="./assets/images/products/flip_flop_slippers/campus_black_round_toe_thong_style_flip_flops_.png">
                     </div>
 
                     <div class="col-md-7">
                         <p class="text-left mt-3" style="color: green; font-weight: bold;">NEW</p>
                         <h1 class="mt-2 mb-2 text-capitalize" id="titleSP"></h1>
-                        <p id="contentProduct" class="mt-5" style="font-weight: lighter; font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur corrupti, nulla cupiditate, molestiae, hic distinctio minus laborum atque aliquid ullam. Sapiente accusantium saepe quisquam dolore neque iure velit consectetur?</p>
+                        <p id="contentProduct" class="mt-5" style="font-weight: lighter; font-size: 20px;">Lorem, ipsum
+                            dolor sit amet consectetur adipisicing elit. Odit tenetur corrupti, nulla cupiditate,
+                            molestiae, hic distinctio minus laborum atque aliquid ullam. Sapiente accusantium saepe
+                            quisquam dolore neque iure velit consectetur?</p>
                         <p class="price"><span style="font-weight:inherit">USD : 100$</span></p>
                         <label>Quantily :</label>
-                        <input id="inputnumber" type='number' min='0' max='100' size='3' value='1' style="height: 25px; width: 50px">
+                        <input id="inputnumber" type='number' min='0' max='100' size='3' value='1'
+                            style="height: 25px; width: 50px">
                         <button id="buy" type="button" class="btn btn-default" style="background: #FE980F;
                         color: #faf4e9;
                         font-size: 15px;
                         margin-left: 20px">
-                        Add to cart</button>
+                            Add to cart</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    
+
     <footer id="footer" class="bg-dark text-white py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-12">
-                    <h4 id="ttshop" class="font-rubik font-size-20">Shop Giày</h4>
-                    <p id="detailttshop" class="font-size-14 font-rale text-white-50">Shop chuyển bán các loại giày dép mang thương hiệu con cá</p>
-                </div>
-                <div class="col-lg-4 col-12 mb-4">
-                    <h4 id="news" class="font-rubik font-size-20">Bản tin</h4>
-                    <form>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <label for="email" class="input-group-text" id="subscribe-desc">@</label>
-                            </div>
-                            <input id="email" type="email" class="form-control" placeholder="Email"
-                                aria-describedby="subscribe-desc">
-                            <div class="input-group-append">
-                                <button id="subscriber" type="submit" class="btn btn-primary">Đăng ký</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-4 col-12">
-                    <h4 id="informationWeb" class="font-rubik font-size-20">Thông tin</h4>
-                    <div class="d-flex flex-column flex-wrap">
-                        <a id="aboutus" href="#" class="font-rale font-size-14 text-white-50 pb-1">Về chúng tôi</a>
-                        <a id="delivery" href="#" class="font-rale font-size-14 text-white-50 pb-1">Thông tin giao hàng</a>
-                        <a id="privacy" href="#" class="font-rale font-size-14 text-white-50 pb-1">Chính sách bảo mật</a>
-                        <a id="terms" href="#" class="font-rale font-size-14 text-white-50 pb-1">Điều khoản và điều kiện</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </footer>
+
     <div class="d-flex bd-highlight justify-content-between align-items-center p-2">
         <div class="bd-highlight">
 
@@ -131,7 +69,7 @@
                     <div class="bd-highlight">
                         <div class="flex-grow-1 ms-3">
                             © Copyrights 2022
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,15 +77,15 @@
         <div class="bd-highlight ">
             <div class="d-flex bd-highlight">
                 <div class="mx-2 py-2 bd-highlight">
-                    <a id="eng" href="#en" ><span>ENG</span></a>
+                    <a id="eng" href="#en"><span>ENG</span></a>
                 </div>
                 <div class="mx-2 py-2 bd-highlight">
-                    <a id="vie" href="#vi" ><span>VIE</span></a>
+                    <a id="vie" href="#vi"><span>VIE</span></a>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <Script type="text/javascript">
         $(async () => {
             $("#img-card").attr({
@@ -155,25 +93,29 @@
                 alt: localStorage.getItem("product-name")
             });
 
-            let dataPT = await await getProductsData("./data/content_products.json");
+            vi = await getProductsData("./data/vi.json");
+            en = await getProductsData("./data/en.json");
 
-            $("#titleSP").text(dataPT[localStorage.getItem("product-id")].vi.header);
-            $("#contentProduct").text(dataPT[localStorage.getItem("product-id")].vi.detail);
+            let dataProduct;
+
+            $("#titleSP").text(vi.content_products[localStorage.getItem("product-id")].header);
+            $("#contentProduct").text(vi.content_products[localStorage.getItem("product-id")].detail);
 
             $("#buy").click(() => {
-		    let number = parseInt($("#inputnumber").val());
-		    if (number == 0) return;
-		    let current = parseInt(window.localStorage.getItem(localStorage.getItem("product-id")) ?? "0");
-		    let total = current + number;
-		    if (total > 100) {
-			    alert("Mỗi mặt hàng chỉ có thể đặt 100 sản phẩm cho ,mỗi đơn hàng. Bạn đã đặt 100 sản phẩm của " + localStorage.getItem("product-name") + " này.");
-			    return;
-		    }
-		    window.localStorage.setItem(localStorage.getItem("product-id"), total);
-		    alert("Đã cập nhật sản phẩm " + localStorage.getItem("product-name") + " với số lượng " + number + " vào giỏ hàng. Số lượng sản phẩm " + localStorage.getItem("product-name") + " đã đặt là " + parseInt(window.localStorage.getItem(localStorage.getItem("product-id"))) + ".");
-	        });
+                let number = parseInt($("#inputnumber").val());
+                if (number == 0) return;
+                let current = parseInt(window.localStorage.getItem(localStorage.getItem("product-id")) ?? "0");
+                let total = current + number;
+                if (total > 100) {
+                    alert("Mỗi mặt hàng chỉ có thể đặt 100 sản phẩm cho ,mỗi đơn hàng. Bạn đã đặt 100 sản phẩm của " + localStorage.getItem("product-name") + " này.");
+                    return;
+                }
+                window.localStorage.setItem(localStorage.getItem("product-id"), total);
+                alert("Đã cập nhật sản phẩm " + localStorage.getItem("product-name") + " với số lượng " + number + " vào giỏ hàng. Số lượng sản phẩm " + localStorage.getItem("product-name") + " đã đặt là " + parseInt(window.localStorage.getItem(localStorage.getItem("product-id"))) + ".");
+            });
         })
     </Script>
 
 </body>
+
 </html>

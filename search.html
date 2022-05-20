@@ -52,7 +52,7 @@
             let categoryID;
             let categoryDOM;
 
-            products = products.filter(product => product.name.includes(ws))
+            products = products.filter(product => product.name.toLowerCase().includes(ws))
 
             if (!(products.length === 0 || ws.length === 0)) {
                 products.forEach(data => {

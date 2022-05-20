@@ -161,26 +161,22 @@
         "pdelivery7": "Chúng tôi sẽ cho đơn hàng của bạn vào kho dự trữ và khi nào bạn muốn nhận bạn cần liên hệ chúng tôi qua hotline: 09999185."
     },
     "content_aboutus": {
-        "ttdelivery1": "Phân phối hàng",
-        "pdelivery1": "Chúng tôi biết rằng một khi bạn đã chọn được đôi giày phù hợp với phong cách của mình, bạn sẽ muốn nhận được nó càng sớm càng tốt.",
-        "pdelivery2": "Trong thời gian dịch COVID-19 bùng phát, chúng tôi đang cố gắng hết sức để giữ cho thời gian gửi và giao hàng chính xác và cập nhật nhất có thể. Bạn có thể theo dõi tình trạng đơn đặt hàng trực tuyến của mình, nhanh chóng và dễ dàng, ngay tại",
-        "adelivery1": "đây",
-        "ttdelivery2": "Giao hàng không tiếp xúc nhanh chóng và đáng tin cậy",
-        "pdelivery3": "Giao hàng của chúng tôi có áp dụng miễn phí giao hàng cho những đơn có giá trị trên 100$ và còn có nhiều mã giảm giá được áp dụng. Đơn hàng trong nội thành thành phố có áp dụng giao nhanh trong ngày còn ngoại thành có thể mất chỉ từ 3-5 ngày bạn có thể nhận được đơn hàng của mình.",
-        "ttdelivery3": "Giao hàng toàn quốc và quốc tế",
-        "pdelivery4": "Chúng tôi đảm bảo giao hàng cho tất cả các tỉnh trong nước và ngoài ra còn có dịch vụ giao hàng ngoài nước với thêm mức phí giao hàng 15$.",
-        "ttdelivery4": "Câu hỏi thường gặp",
-        "ttdelivery5": "Đơn hàng của tôi đang ở đâu?",
-        "pdelivery5": "Bạn có thể nhấn vào phần giỏ hàng bên góc phải bên trên để hiển thị thông tin đơn hàng.",
-        "ttdelivery6": "Thời gian giao hàng?",
-        "pdelivery6": "Chúng tôi áp dụng giao hàng nhanh trong nước chỉ mất 2-3 ngày bạn có thể nhận hàng. Chúng tôi sẽ liên hệ khi đơn hàng sắp chuyển đến bạn.",
-        "ttdelivery7": "Điều gì sẽ xảy ra khi tôi không có ở nhà khi giao hàng đến?",
-        "pdelivery7": "Chúng tôi sẽ cho đơn hàng của bạn vào kho dự trữ và khi nào bạn muốn nhận bạn cần liên hệ chúng tôi qua hotline: 09999185."
-    },
-    "content_privacy_policy": {
         "ttaboutus1": "Về Chúng Tôi",
         "paboutus1": "Có thể, bạn biết đến chúng tôi như hãng hàng không nổi tiếng về cung cấp giày. Nhưng bạn có biết rằng mỗi tuần chúng tôi thực hiện rất nhiều đơn hàng. Và thậm chí còn có nhiều thông tin hơn nữa về chúng tôi! Bạn có thể theo các liên kết tại đây để tìm hiểu triết lý kinh doanh của chúng tôi, về đội bay đầy ấn tượng của chúng tôi và các cơ hội để BẠN có thể đến với Jetstar.",
         "ttaboutus2": "Các Thành Viên Của Chúng Tôi"
+    },
+    "content_privacy_policy": {
+        "ttprivacy":"CHÍNH SÁCH BẢO MẬT VÀ CHIA SẺ THÔNG TIN",
+        "liprivacy1": "Chính sách bảo mật và chia sẻ thông tin này nhằm đảm bảo an toàn thông tin liên quan đến tổ chức,cá nhân tham gia và/hoặc giao dịch trên website.",
+        "liprivacy2": "Giao hàng cho quý khách đã mua sản phẩm tại.",
+        "liprivacy3": "Cung cấp thông tin liên quan đến sản phẩm.",
+        "liprivacy4": "Thông báo về việc giao hàng và hỗ trợ khách hàng.",
+        "liprivacy5": "Xử lý đơn đặt hàng và cung cấp dịch vụ,thông tin qua trang web của chúng tôi theo yêu cầu của quý khách.",
+        "liprivacy6": "Khi Khách Hàng thực hiện giao dịch tại website, khách hàng phải cung cấp một số thông tin cần thiết cho việc thực hiện giao dịch để được áp dụng những chính sách ưu đãi dành cho khách hàng.",
+        "liprivacy7": "Khách hàng có trách nhiệm đảm bảo những thông tin khách hàng cung cấp là đầy đủ và chính xác và luôn cập nhật thông tin để đảm bảo tính đầy đủ và chính xác. Web giày không chịu trách nhiệm giải quyết bất kỳ tranh chấp nào nếu thông tin khách hàng cung cấp không chính xác hoặc không được cập nhật hoặc giả mạo. Mọi thông tin khách hàng,cũng như các thông tin trao đổi giữa khách hàng và Rabity đều được lưu giữ và bảo mật bởi hệ thống của website.",
+        "liprivacy8": "Website có các biện pháp thích hợp về kỹ thuật và an ninh để ngăn chặn việc truy cập,sử dụng trách phép thông tin khách hàng.",
+        "liprivacy9": "Website cũng thường xuyên phối hợp với các chuyên gia bảo mật nhằm cập nhật những thông tin mới nhất về an ninh mạng để đảm bảo sự an toàn cho thông tin khách hàng khi Khách hàng truy cập,đăng ký mua hàng.",
+        "liprivacy10": "Các thông tin thanh toán của khách hàng được chúng tôi bảo vệ theo tiêu chuẩn quốc tế với nguyên tắc không ghi nhận các dữ liệu quan trọng của thẻ(số thẻ,họ tên,số CVV)trên hệ thống của Website. Giao dịch thanh toán của khách hàng được thực hiện trên hệ thống của ngân hàng liên kết với Website."
     },
     "category": {
         "casual": "Bình Thường",

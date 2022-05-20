@@ -1,42 +1,49 @@
 $(async()=>{
-    let data_delivery = await getProductsData("./data/content_delivery.json");
+    vi = await getProductsData("./data/vi.json");
+    en = await getProductsData("./data/en.json");
+
+    let dataProduct;
 
     $("#eng").click(()=>{
-        switchNavFooterEn();
-        $("#ttdelivery1").text(data_delivery.en.ttdelivery1);
-        $("#pdelivery1").text(data_delivery.en.pdelivery1);
-        $("#pdelivery2").text(data_delivery.en.pdelivery2);
-        $("#adelivery1").text(data_delivery.en.adelivery1);
-        $("#ttdelivery2").text(data_delivery.en.ttdelivery2);
-        $("#pdelivery3").text(data_delivery.en.pdelivery3);
-        $("#ttdelivery3").text(data_delivery.en.ttdelivery3);
-        $("#pdelivery4").text(data_delivery.en.pdelivery4);
-        $("#ttdelivery4").text(data_delivery.en.ttdelivery4);
-        $("#ttdelivery5").text(data_delivery.en.ttdelivery5);
-        $("#pdelivery5").text(data_delivery.en.pdelivery5);
-        $("#ttdelivery6").text(data_delivery.en.ttdelivery6);
-        $("#pdelivery6").text(data_delivery.en.pdelivery6);
-        $("#ttdelivery7").text(data_delivery.en.ttdelivery7);
-        $("#pdelivery7").text(data_delivery.en.pdelivery7);
+        dataProduct = en;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+
+        $("#ttdelivery1").text(dataProduct.content_delivery.ttdelivery1);
+        $("#pdelivery1").text(dataProduct.content_delivery.pdelivery1);
+        $("#pdelivery2").text(dataProduct.content_delivery.pdelivery2);
+        $("#adelivery1").text(dataProduct.content_delivery.adelivery1);
+        $("#ttdelivery2").text(dataProduct.content_delivery.ttdelivery2);
+        $("#pdelivery3").text(dataProduct.content_delivery.pdelivery3);
+        $("#ttdelivery3").text(dataProduct.content_delivery.ttdelivery3);
+        $("#pdelivery4").text(dataProduct.content_delivery.pdelivery4);
+        $("#ttdelivery4").text(dataProduct.content_delivery.ttdelivery4);
+        $("#ttdelivery5").text(dataProduct.content_delivery.ttdelivery5);
+        $("#pdelivery5").text(dataProduct.content_delivery.pdelivery5);
+        $("#ttdelivery6").text(dataProduct.content_delivery.ttdelivery6);
+        $("#pdelivery6").text(dataProduct.content_delivery.pdelivery6);
+        $("#ttdelivery7").text(dataProduct.content_delivery.ttdelivery7);
+        $("#pdelivery7").text(dataProduct.content_delivery.pdelivery7);
     });
 
     $("#vie").click(()=>{
-        switchNavFooterVi();
-        $("#ttdelivery1").text(data_delivery.vi.ttdelivery1);
-        $("#pdelivery1").text(data_delivery.vi.pdelivery1);
-        $("#pdelivery2").text(data_delivery.vi.pdelivery2);
-        $("#adelivery1").text(data_delivery.vi.adelivery1);
-        $("#ttdelivery2").text(data_delivery.vi.ttdelivery2);
-        $("#pdelivery3").text(data_delivery.vi.pdelivery3);
-        $("#ttdelivery3").text(data_delivery.vi.ttdelivery3);
-        $("#pdelivery4").text(data_delivery.vi.pdelivery4);
-        $("#ttdelivery4").text(data_delivery.vi.ttdelivery4);
-        $("#ttdelivery5").text(data_delivery.vi.ttdelivery5);
-        $("#pdelivery5").text(data_delivery.vi.pdelivery5);
-        $("#ttdelivery6").text(data_delivery.vi.ttdelivery6);
-        $("#pdelivery6").text(data_delivery.vi.pdelivery6);
-        $("#ttdelivery7").text(data_delivery.vi.ttdelivery7);
-        $("#pdelivery7").text(data_delivery.vi.pdelivery7);
+        dataProduct = vi;
+        switchNavFooterEn(dataProduct.content_nav_footer);
+
+        $("#ttdelivery1").text(dataProduct.content_delivery.ttdelivery1);
+        $("#pdelivery1").text(dataProduct.content_delivery.pdelivery1);
+        $("#pdelivery2").text(dataProduct.content_delivery.pdelivery2);
+        $("#adelivery1").text(dataProduct.content_delivery.adelivery1);
+        $("#ttdelivery2").text(dataProduct.content_delivery.ttdelivery2);
+        $("#pdelivery3").text(dataProduct.content_delivery.pdelivery3);
+        $("#ttdelivery3").text(dataProduct.content_delivery.ttdelivery3);
+        $("#pdelivery4").text(dataProduct.content_delivery.pdelivery4);
+        $("#ttdelivery4").text(dataProduct.content_delivery.ttdelivery4);
+        $("#ttdelivery5").text(dataProduct.content_delivery.ttdelivery5);
+        $("#pdelivery5").text(dataProduct.content_delivery.pdelivery5);
+        $("#ttdelivery6").text(dataProduct.content_delivery.ttdelivery6);
+        $("#pdelivery6").text(dataProduct.content_delivery.pdelivery6);
+        $("#ttdelivery7").text(dataProduct.content_delivery.ttdelivery7);
+        $("#pdelivery7").text(dataProduct.content_delivery.pdelivery7);
     });
 
 })
