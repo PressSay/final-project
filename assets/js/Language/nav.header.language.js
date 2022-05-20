@@ -27,7 +27,7 @@ function switchNavFooterEn() {
     $("#topsale_header").text(data.footer.en.topsale_header);
 }
 
-function switchFooterNavFooterVi() {
+function switchNavFooterVi() {
     $("#index").text(data.nav.vi.index);
     $("#product").text(data.nav.vi.product);
     $("#search-vaue").attr("placeholder",`${data.nav.vi.search_value}`);

@@ -11,7 +11,7 @@ $(async()=>{
         })
         
         vie.click(()=>{
-            switchFooterNavFooterVi();
+            switchNavFooterVi();
             $("#abros_olive_punto_o_lace_up_casual_shoes").text(dataProduct.abros_olive_punto_o_lace_up_casual_shoes.vi.header);
             $("#campus_black_explore_mid_top_lace_up_casual_shoes").text(dataProduct.campus_black_explore_mid_top_lace_up_casual_shoes.vi.header);
             $("#campus_black_round_toe_thong_style_flip_flops_").text(dataProduct.campus_black_round_toe_thong_style_flip_flops_.vi.header);
